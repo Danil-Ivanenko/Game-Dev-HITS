@@ -7,11 +7,12 @@ public class movePlayer : MonoBehaviour
     // Start is called before the first frame update
     Rigidbody2D Rb;
      [SerializeField] float speed = 3;
-    //Animator anim;
+    Animator anim;
+    public bool run;
     void Start()
     {
         Rb = GetComponent<Rigidbody2D>();
-        //anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -21,5 +22,14 @@ public class movePlayer : MonoBehaviour
         float moveY = Input.GetAxisRaw("Vertical");
         Vector2 moveDirection = new Vector2(moveX, moveY).normalized;
         Rb.velocity = new Vector2(moveDirection.x*speed, moveDirection.y*speed);
+        if (moveX != 0 || moveY != 0 )
+        {
+            run = true;
+        }
+        if (moveX == 0 && moveY == 0 )
+        {
+            run = false;
+        }
+        anim.SetBool("Run",run);
     }
 }

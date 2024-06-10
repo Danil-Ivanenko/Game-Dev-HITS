@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: 1bcfcff41734a704b8c291ce029f52c1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chelbez_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1331
+        width: 96
+        height: 76
+      alignment: 9
+      pivot: {x: 0.4953252, y: 0.5590499}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0e0a0994d140f45a5fa9992bb32be3
+      internalID: -1296546979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chelbez_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1214
+        width: 96
+        height: 88
+      alignment: 9
+      pivot: {x: 0.5046747, y: 0.5509977}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905c2eea64639a043bfc76e91cf691df
+      internalID: -27845099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chelbez_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1093
+        width: 96
+        height: 108
+      alignment: 9
+      pivot: {x: 0.4953252, y: 0.5290878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487b096787bb5b34597c22a24f19d6b3
+      internalID: 1419574081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chelbez_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 973
+        width: 96
+        height: 88
+      alignment: 9
+      pivot: {x: 0.4999999, y: 0.5458977}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e58eb62fb3435c48818f85a44510008
+      internalID: 1865441096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chelbez_4
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 867
+        width: 96
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06636eab7ed5474393b6f8b9b36cf4b
+      internalID: -1961800654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chelbez_5
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 773
+        width: 96
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4999999, y: 0.5604119}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a1bf338d6bb0d4faebb1a75755ad73
+      internalID: -1462527587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chelbez_6
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 642
+        width: 96
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b58349f4b25c614d89820f681fdc188
+      internalID: -22044838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chelbez_7
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 508
+        width: 96
+        height: 88
+      alignment: 9
+      pivot: {x: 0.4999999, y: 0.53059804}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac766ee3c0c4f24180c718d0ee1d302
+      internalID: -654194660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chelbez_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 373
+        width: 96
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5046747, y: 0.51662105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcc6a96d3ad80c42bba4311fe3eb2b4
+      internalID: 976148432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chelbez_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 252
+        width: 96
+        height: 88
+      alignment: 9
+      pivot: {x: 0.4999999, y: 0.52549845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91bf3ed292568784fa7cbe7a13f620c3
+      internalID: 675040646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chelbez_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 127
+        width: 96
+        height: 76
+      alignment: 9
+      pivot: {x: 0.4999999, y: 0.5118097}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1983f3a129bcb46814287dae14d442
+      internalID: 564242739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chelbez_11
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 30
+        width: 96
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4999999, y: 0.57767236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c4f6afc856a8a48b0ff5ff1d31190e
+      internalID: 632927272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Chelbez_0: -1296546979
+      Chelbez_1: -27845099
+      Chelbez_10: 564242739
+      Chelbez_11: 632927272
+      Chelbez_2: 1419574081
+      Chelbez_3: 1865441096
+      Chelbez_4: -1961800654
+      Chelbez_5: -1462527587
+      Chelbez_6: -22044838
+      Chelbez_7: -654194660
+      Chelbez_8: 976148432
+      Chelbez_9: 675040646
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

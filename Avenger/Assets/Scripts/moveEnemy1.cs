@@ -7,6 +7,7 @@ public class moveEnemy1 : MonoBehaviour
 {
     public Transform[] targets;
     public float delay = 0;
+    [SerializeField] int startAngle;
     int index;
     bool chase;
     IAstarAI agent;
@@ -17,7 +18,7 @@ public class moveEnemy1 : MonoBehaviour
     void Awake () 
     {
         agent = GetComponent<IAstarAI>();
-        transform.eulerAngles = new Vector2(180, 180);
+        transform.eulerAngles = new Vector3(0, 0, startAngle );
     }
     void Start() 
     {
@@ -27,6 +28,10 @@ public class moveEnemy1 : MonoBehaviour
 
     
     void Update () {
+        if(Player == null)
+        {
+            Player = GameObject.FindGameObjectWithTag("Player");
+        }
         chase = fov.chase;
         playerPos= Player.transform;
 
