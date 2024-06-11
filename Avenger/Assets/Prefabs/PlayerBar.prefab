@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 8807269110351411820}
   - component: {fileID: 2015765695619861128}
   m_Layer: 3
-  m_Name: PlayerPistol
+  m_Name: PlayerBar
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80,7 +80,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1383675442, guid: c094fe96b24dc0640acd29b6250c560e, type: 3}
+  m_Sprite: {fileID: 204798236, guid: 765cbfea889769a4594e455201f8d635, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -189,7 +189,7 @@ Animator:
   m_GameObject: {fileID: 6071004288567213255}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 37751ca5a54b2754f888518ade203d51, type: 2}
+  m_Controller: {fileID: 9100000, guid: 7116e6dd153e7bf4c947737de38920b0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -212,7 +212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 411488cdcf224de429d208935ed37287, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurWeapon: {fileID: 1510036387219466806, guid: 7927e73bf34894841a161140ce19d342, type: 3}
+  CurWeapon: {fileID: 1510036387219466806, guid: b2dfc21a61fb96d409452948601140f8, type: 3}
   FirePoint: {fileID: 0}
   throwSpeed: 500
   BasicPlayer: {fileID: 6071004288567213255, guid: 5f6494c90d4d6ca4c943d56aac7ca9bf, type: 3}
@@ -241,7 +241,7 @@ Transform:
   m_GameObject: {fileID: 8186065961592538789}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.104, y: 1.137, z: -0.002667445}
+  m_LocalPosition: {x: 0.38, y: 0.201, z: -0.002667445}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

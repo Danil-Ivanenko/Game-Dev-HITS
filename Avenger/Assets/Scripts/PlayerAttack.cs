@@ -20,6 +20,8 @@ public class PlayerThrow : MonoBehaviour
         {
             GameObject weapon = Instantiate(CurWeapon, FirePoint.position, FirePoint.rotation);
             weapon.GetComponent<Rigidbody2D>().AddForce(FirePoint.up* throwSpeed, ForceMode2D.Impulse);
+            WeaponManagment.instance.type = 0;    // fixed
+            WeaponManagment.instance.id = 0;   // fixed
             Instantiate(BasicPlayer, transform.position, transform.rotation);
             Destroy(gameObject);
         }

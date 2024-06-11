@@ -28,11 +28,12 @@ public class WeaponManagment : MonoBehaviour
     public void TakeWeapon()
     {
         GameObject Player = GameObject.FindGameObjectWithTag("Player");
+
         switch(type)
         {
             case 1:
-            //Instantiate(CrowbarPlayer, Player.transform.position, Player.transform.rotation);
-            //Destroy(Player);
+            Instantiate(CrowbarPlayer, Player.transform.position, Player.transform.rotation);
+            Destroy(Player);
             break;
             case 2:
             Instantiate(PistolPlayer, Player.transform.position, Player.transform.rotation);
@@ -40,5 +41,6 @@ public class WeaponManagment : MonoBehaviour
             break;
 
         }
+
     }
 }

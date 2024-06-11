@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: 4f7fa8e0870042c478b9331b492c18e6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnemyWalking_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1140
+        width: 112
+        height: 76
+      alignment: 9
+      pivot: {x: 0.24896553, y: 0.49168637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c833a024bc8f64986dc5e00ecea7e3
+      internalID: 1602922818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWalking_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1037
+        width: 112
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25178614, y: 0.49282005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c48636e1a9da9845944daff6610bd04
+      internalID: 637319960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWalking_2
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 924
+        width: 112
+        height: 108
+      alignment: 9
+      pivot: {x: 0.24896553, y: 0.4502733}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7797270a26b2b44894f684f89f11cc
+      internalID: 1473922019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWalking_3
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 819
+        width: 112
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25178614, y: 0.49282005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6686dc196ff0ee745987bd048bc669c3
+      internalID: 1436755121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWalking_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 716
+        width: 112
+        height: 76
+      alignment: 9
+      pivot: {x: 0.25178614, y: 0.49168637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae73db64cdf95b408cf9aea3bf370bb
+      internalID: 590789214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWalking_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 628
+        width: 112
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25178614, y: 0.455575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7305781a8edfcc240b39a7202353ef62
+      internalID: -1874590023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWalking_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 530
+        width: 112
+        height: 76
+      alignment: 9
+      pivot: {x: 0.24896553, y: 0.4750599}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805113b917cca184ca45246744f3a954
+      internalID: 2024206993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWalking_7
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 422
+        width: 112
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25178614, y: 0.49282038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f7d79fafac9a84a836e5589adaf38d
+      internalID: -512459768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWalking_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 302
+        width: 113
+        height: 108
+      alignment: 9
+      pivot: {x: 0.25677866, y: 0.47659925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e4142325677cd43bc7b7766d1c0748
+      internalID: 1189361709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWalking_9
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 192
+        width: 112
+        height: 88
+      alignment: 9
+      pivot: {x: 0.24896553, y: 0.49282038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb7ce0ff43ce334ba03c222a6888656
+      internalID: -425838934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWalking_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 94
+        width: 112
+        height: 76
+      alignment: 9
+      pivot: {x: 0.25178614, y: 0.4750599}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9c5a047611a9d45bbbbbaba711d61b
+      internalID: 964922590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWalking_11
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 9
+        width: 112
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25178614, y: 0.46051115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac69ab7478c0e7d4e849a65b8184ad48
+      internalID: -1327053989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      EnemyWalking_0: 1602922818
+      EnemyWalking_1: 637319960
+      EnemyWalking_10: 964922590
+      EnemyWalking_11: -1327053989
+      EnemyWalking_2: 1473922019
+      EnemyWalking_3: 1436755121
+      EnemyWalking_4: 590789214
+      EnemyWalking_5: -1874590023
+      EnemyWalking_6: 2024206993
+      EnemyWalking_7: -512459768
+      EnemyWalking_8: 1189361709
+      EnemyWalking_9: -425838934
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
