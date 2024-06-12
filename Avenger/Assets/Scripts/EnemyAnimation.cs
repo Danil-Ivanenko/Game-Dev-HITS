@@ -7,6 +7,7 @@ public class EnemyAnimation : MonoBehaviour
     // Start is called before the first frame update
     Animator anim;
     bool Run;
+    public bool AnimDead;
     Vector3 pos;
     void Start()
     {
@@ -25,7 +26,9 @@ public class EnemyAnimation : MonoBehaviour
         {
             Run = false;
         }
+        anim.SetBool("Dead", AnimDead);
         anim.SetBool("Run", Run);
+        
     }
 
 }

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerThrow : MonoBehaviour
+public class PlayerPistolShoot : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] GameObject CurWeapon;
@@ -27,6 +27,10 @@ public class PlayerThrow : MonoBehaviour
             Instantiate(BasicPlayer, transform.position, transform.rotation);
             Destroy(gameObject);
         }
-
+        if(Input.GetMouseButtonDown(0))
+        {
+            GameObject projectile = Instantiate(Bullet, FirePoint.position, FirePoint.rotation);
+            projectile.GetComponent<Rigidbody2D>().AddForce(FirePoint.up* bulletSpeed, ForceMode2D.Impulse);
+        }
     }
 }
