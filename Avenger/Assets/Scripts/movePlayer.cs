@@ -8,27 +8,37 @@ public class movePlayer : MonoBehaviour
     Rigidbody2D Rb;
      [SerializeField] float speed = 3;
     Animator anim;
+    PlayerHP HP;
     public bool run;
     void Start()
     {
         Rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        HP = GetComponent<PlayerHP>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        float moveX = Input.GetAxisRaw("Horizontal");
-        float moveY = Input.GetAxisRaw("Vertical");
-        Vector2 moveDirection = new Vector2(moveX, moveY).normalized;
-        Rb.velocity = new Vector2(moveDirection.x*speed, moveDirection.y*speed);
-        if (moveX != 0 || moveY != 0 )
+        if(!HP.dead)
         {
-            run = true;
+            float moveX = Input.GetAxisRaw("Horizontal");
+            float moveY = Input.GetAxisRaw("Vertical");
+            Vector2 moveDirection = new Vector2(moveX, moveY).normalized;
+            Rb.velocity = new Vector2(moveDirection.x*speed, moveDirection.y*speed);
+            if (moveX != 0 || moveY != 0 )
+            {
+                run = true;
+            }
+            if (moveX == 0 && moveY == 0 )
+            {
+                run = false;
+            }
+            
         }
-        if (moveX == 0 && moveY == 0 )
+        else
         {
-            run = false;
+            Rb.velocity = new Vector2(0, 0);
         }
         anim.SetBool("Run",run);
     }

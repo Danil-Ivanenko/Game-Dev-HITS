@@ -23,7 +23,7 @@ public class EnemyHP : MonoBehaviour
             AnimScript.AnimDead = true;
             dead = true;
             gameObject.GetComponent<Collider2D>().enabled = false; // fixed
-            gameObject.GetComponent<Collider2D>().enabled = false; // fixed
+            
         }
     }
 }

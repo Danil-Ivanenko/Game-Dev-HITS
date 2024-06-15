@@ -8,6 +8,7 @@ public class EnemyAnimation : MonoBehaviour
     Animator anim;
     bool Run;
     public bool AnimDead;
+    public bool AnimAttack;
     Vector3 pos;
     void Start()
     {
@@ -26,8 +27,10 @@ public class EnemyAnimation : MonoBehaviour
         {
             Run = false;
         }
+        anim.SetBool("Attack", AnimAttack);
         anim.SetBool("Dead", AnimDead);
         anim.SetBool("Run", Run);
+        
         
     }
 

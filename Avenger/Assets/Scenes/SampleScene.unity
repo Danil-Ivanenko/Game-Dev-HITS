@@ -497,11 +497,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4989668550993035961, guid: 5f6494c90d4d6ca4c943d56aac7ca9bf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.76
+      value: -1.91
       objectReference: {fileID: 0}
     - target: {fileID: 4989668550993035961, guid: 5f6494c90d4d6ca4c943d56aac7ca9bf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.04
+      value: -1.95
       objectReference: {fileID: 0}
     - target: {fileID: 4989668550993035961, guid: 5f6494c90d4d6ca4c943d56aac7ca9bf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -832,6 +832,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 219982475710727906, guid: 87ad2ac450a66d44bb2a2d460e48c8fb, type: 3}
+      propertyPath: attack
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 876160253705886947, guid: 87ad2ac450a66d44bb2a2d460e48c8fb, type: 3}
       propertyPath: m_Name
       value: Enemy1
@@ -892,11 +896,36 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5344544639683217769, guid: 87ad2ac450a66d44bb2a2d460e48c8fb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139222614156331124, guid: 87ad2ac450a66d44bb2a2d460e48c8fb, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139222614156331124, guid: 87ad2ac450a66d44bb2a2d460e48c8fb, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7076255201881514759, guid: 87ad2ac450a66d44bb2a2d460e48c8fb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7702619433336334487, guid: 87ad2ac450a66d44bb2a2d460e48c8fb, type: 3}
+      propertyPath: m_Radius
+      value: 6.07
+      objectReference: {fileID: 0}
     - target: {fileID: 7702619433336334487, guid: 87ad2ac450a66d44bb2a2d460e48c8fb, type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 9121536625983174552, guid: 87ad2ac450a66d44bb2a2d460e48c8fb, type: 3}
+      propertyPath: attack
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5344544639683217769, guid: 87ad2ac450a66d44bb2a2d460e48c8fb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

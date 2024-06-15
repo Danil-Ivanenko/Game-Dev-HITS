@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1958505890566469478}
   - component: {fileID: 8807269110351411820}
   - component: {fileID: 6002892557371404584}
+  - component: {fileID: 9181822438895086795}
   m_Layer: 3
   m_Name: PlayerPistol
   m_TagString: Player
@@ -215,9 +216,22 @@ MonoBehaviour:
   CurWeapon: {fileID: 1510036387219466806, guid: 7927e73bf34894841a161140ce19d342, type: 3}
   Bullet: {fileID: 4098227034994501502, guid: aa71ea3db50995046acc74b4fafea2f3, type: 3}
   FirePoint: {fileID: 0}
-  throwSpeed: 255
+  throwSpeed: 500
   bulletSpeed: 30
   BasicPlayer: {fileID: 6071004288567213255, guid: 5f6494c90d4d6ca4c943d56aac7ca9bf, type: 3}
+--- !u!114 &9181822438895086795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6071004288567213255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 767c96111a28a5b48b1ab2579c9ea61b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dead: 0
 --- !u!1 &8186065961592538789
 GameObject:
   m_ObjectHideFlags: 0
