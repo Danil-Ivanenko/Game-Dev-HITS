@@ -36,9 +36,16 @@ public class EnemyMelee : MonoBehaviour
 
     IEnumerator AttackTimer()
     {
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(0.5f); // 0.3f
         col.enabled = true;
         AnimScript.AnimAttack = true;
+        if(HP.dead)
+        {
+            col.enabled = false;
+            attack = false;
+            AnimScript.AnimAttack = false;
+            
+        }
         StartCoroutine(FinishAttack());
     }
 

@@ -13,6 +13,7 @@ public class NewBehaviourScript : MonoBehaviour
         Rb = GetComponent<Rigidbody2D>();
         camera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
         HP = GetComponent<PlayerHP>();
+        Rb.freezeRotation = true;
     }
 
     // Update is called once per frame

@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 3255339704435450068}
   m_Layer: 0
   m_Name: Bar
-  m_TagString: Untagged
+  m_TagString: SingleWeapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -172,7 +172,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0.0025182366, y: -0.0050363094}
   serializedVersion: 2
-  m_Radius: 0.33
+  m_Radius: 0.27
 --- !u!58 &9113926492582004692
 CircleCollider2D:
   m_ObjectHideFlags: 0
