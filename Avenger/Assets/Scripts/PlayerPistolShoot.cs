@@ -10,6 +10,8 @@ public class PlayerPistolShoot : MonoBehaviour
     [SerializeField] Transform FirePoint;
     [SerializeField] float throwSpeed = 255;
     [SerializeField] float bulletSpeed = 30;
+    float cooldown = 0.1f;
+    float lastFireTime;
     [SerializeField] GameObject BasicPlayer;
     void Start()
     {
@@ -18,19 +20,23 @@ public class PlayerPistolShoot : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetMouseButtonDown(1))
+        if(Time.time > lastFireTime + cooldown)
         {
-            GameObject weapon = Instantiate(CurWeapon, FirePoint.position, FirePoint.rotation);
-            weapon.GetComponent<Rigidbody2D>().AddForce(FirePoint.up* throwSpeed, ForceMode2D.Impulse);
-            WeaponManagment.instance.type = 0;    // fixed
-            WeaponManagment.instance.id = 0;   // fixed
-            Instantiate(BasicPlayer, transform.position, transform.rotation);
-            Destroy(gameObject);
-        }
-        if(Input.GetMouseButtonDown(0))
-        {
-            GameObject projectile = Instantiate(Bullet, FirePoint.position, FirePoint.rotation);
-            projectile.GetComponent<Rigidbody2D>().AddForce(FirePoint.up* bulletSpeed, ForceMode2D.Impulse);
+            if(Input.GetMouseButtonDown(1))
+            {
+                GameObject weapon = Instantiate(CurWeapon, FirePoint.position, FirePoint.rotation);
+                weapon.GetComponent<Rigidbody2D>().AddForce(FirePoint.up* throwSpeed, ForceMode2D.Impulse);
+                WeaponManagment.instance.type = 0;    // fixed
+                WeaponManagment.instance.id = 0;   // fixed
+                Instantiate(BasicPlayer, transform.position, transform.rotation);
+                Destroy(gameObject);
+            }
+            if(Input.GetMouseButtonDown(0))
+            {
+                GameObject projectile = Instantiate(Bullet, FirePoint.position, FirePoint.rotation);
+                projectile.GetComponent<Rigidbody2D>().AddForce(FirePoint.up* bulletSpeed, ForceMode2D.Impulse);
+                lastFireTime = Time.time;
+            }
         }
     }
 }

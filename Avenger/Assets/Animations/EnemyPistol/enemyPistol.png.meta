@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: 1a2398be4b3e05940a1931794f4334b8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemyPistol_0
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2243
+        width: 63
+        height: 169
+      alignment: 9
+      pivot: {x: 0.39784387, y: 0.22435945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9cd7856f4cd7e548b6cacd4199225f1
+      internalID: 2099018975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyPistol_1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2059
+        width: 63
+        height: 177
+      alignment: 9
+      pivot: {x: 0.39784387, y: 0.2524014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb9662d4c1e36a46acc950ff8d6c2c7
+      internalID: 522557569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyPistol_2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1857
+        width: 63
+        height: 179
+      alignment: 9
+      pivot: {x: 0.4562189, y: 0.2654402}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579c5679bedd35141b02ad78e4ba73ad
+      internalID: 634811849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyPistol_3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1656
+        width: 63
+        height: 176
+      alignment: 9
+      pivot: {x: 0.39784387, y: 0.25447637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40bb44e5e1cc3a41a2689411099f37a
+      internalID: -404301374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyPistol_4
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1426
+        width: 62
+        height: 168
+      alignment: 9
+      pivot: {x: 0.40608215, y: 0.2190697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7530cbf41fb5cd4cb8aac2044ac667e
+      internalID: -1683248461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyPistol_5
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1043
+        width: 62
+        height: 177
+      alignment: 9
+      pivot: {x: 0.40113905, y: 0.25586352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd2bf55c1874044680f7c6b38cbed65
+      internalID: 968407330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyPistol_6
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1219
+        width: 58
+        height: 168
+      alignment: 9
+      pivot: {x: 0.44187638, y: 0.21542141}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed1be3d2f2fb7f4ba7a4ee76b3c4575
+      internalID: -2102531812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyPistol_7
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 840
+        width: 64
+        height: 178
+      alignment: 9
+      pivot: {x: 0.40560102, y: 0.2816762}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e4789d54fa3b84a88d1e64175c1300
+      internalID: -283579057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyPistol_8
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 640
+        width: 68
+        height: 189
+      alignment: 9
+      pivot: {x: 0.38485292, y: 0.30541638}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1bf0075d9e05a41bfceacd662f68aa
+      internalID: -571135039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyPistol_9
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 422
+        width: 64
+        height: 180
+      alignment: 9
+      pivot: {x: 0.39465117, y: 0.2633372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621468d0d4738e5489616b1ee476714a
+      internalID: 293511709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyPistol_10
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 213
+        width: 62
+        height: 177
+      alignment: 9
+      pivot: {x: 0.40608215, y: 0.25586316}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906b4d30a71e1e34287ec57258e5356f
+      internalID: 1534345800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyPistol_11
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 15
+        width: 58
+        height: 167
+      alignment: 9
+      pivot: {x: 0.43130836, y: 0.20821162}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816e6437cb36a4547bff0b1f4b06e9a9
+      internalID: -126711021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      enemyPistol_0: 2099018975
+      enemyPistol_1: 522557569
+      enemyPistol_10: 1534345800
+      enemyPistol_11: -126711021
+      enemyPistol_2: 634811849
+      enemyPistol_3: -404301374
+      enemyPistol_4: -1683248461
+      enemyPistol_5: 968407330
+      enemyPistol_6: -2102531812
+      enemyPistol_7: -283579057
+      enemyPistol_8: -571135039
+      enemyPistol_9: 293511709
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

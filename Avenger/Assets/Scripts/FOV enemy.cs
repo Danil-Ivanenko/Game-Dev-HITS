@@ -9,7 +9,7 @@ public class FOVenemy : MonoBehaviour
     [SerializeField] LayerMask targetlayer;
     [SerializeField] Transform targetTransform;
     [SerializeField] float viewAngle =45;
-    [SerializeField] bool visible;
+    [SerializeField] public bool visible;
     [SerializeField] LayerMask wallsLayer;
     [SerializeField] float chasingTime = 5f;
     Collider2D[] targetCol;
