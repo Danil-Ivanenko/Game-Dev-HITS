@@ -6,6 +6,7 @@ public class EnemyHP : MonoBehaviour
 {
     public bool dead;
     EnemyAnimation AnimScript;
+    [SerializeField] GameObject Weapon;
     void Start()
     {
         AnimScript = GetComponent<EnemyAnimation>();
@@ -23,6 +24,10 @@ public class EnemyHP : MonoBehaviour
             
 
             AnimScript.AnimDead = true;
+            if(dead == false)
+            {
+                Instantiate(Weapon, transform.position, transform.rotation);
+            }
             dead = true;
             gameObject.GetComponent<Collider2D>().enabled = false; // fixed
             

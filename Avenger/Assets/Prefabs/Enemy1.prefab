@@ -356,6 +356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dead: 0
+  Weapon: {fileID: 1510036387219466806, guid: b2dfc21a61fb96d409452948601140f8, type: 3}
 --- !u!1 &3820453315249656303
 GameObject:
   m_ObjectHideFlags: 0
