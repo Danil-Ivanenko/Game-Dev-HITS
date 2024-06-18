@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: 765cbfea889769a4594e455201f8d635
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ManWithColdWeapon_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1334
+        width: 112
+        height: 76
+      alignment: 9
+      pivot: {x: 0.25023857, y: 0.47065976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8597e132b54476c41ab16ba3c180eae8
+      internalID: -1131791182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManWithColdWeapon_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1219
+        width: 112
+        height: 88
+      alignment: 9
+      pivot: {x: 0.24842861, y: 0.46775123}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77982f0b5812d0418a490e51ec6d5d4
+      internalID: 1052268197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManWithColdWeapon_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1082
+        width: 112
+        height: 108
+      alignment: 9
+      pivot: {x: 0.25023857, y: 0.48498422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621baf146ff4c0e469285f1662abb8a7
+      internalID: 1158707952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManWithColdWeapon_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 964
+        width: 112
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25023857, y: 0.4723573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42a8a1049ca2c94dbf3fa838a197f12
+      internalID: 1662177042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManWithColdWeapon_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 848
+        width: 112
+        height: 76
+      alignment: 9
+      pivot: {x: 0.24842842, y: 0.47065976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a298974d516a34bb98fab6e00ee296
+      internalID: -1074794314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManWithColdWeapon_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 735
+        width: 112
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25023857, y: 0.46832657}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba224bc660f650419558e8e63b5b39b
+      internalID: 34216619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManWithColdWeapon_6
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 620
+        width: 112
+        height: 76
+      alignment: 9
+      pivot: {x: 0.24842861, y: 0.50533414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8f380dd0c94ff46849c93db5cebd48
+      internalID: -51102093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManWithColdWeapon_7
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 510
+        width: 112
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25023857, y: 0.47926816}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d650294d50a5947838f448fe0cb80a
+      internalID: -460876947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManWithColdWeapon_8
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 375
+        width: 112
+        height: 108
+      alignment: 9
+      pivot: {x: 0.24842861, y: 0.48686135}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7af3019de1a134bbe26c521643c0d7
+      internalID: -111611485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManWithColdWeapon_9
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 263
+        width: 112
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25023857, y: 0.48387527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcddd053b799f9f4ab8d352babc2e52f
+      internalID: 1782025916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManWithColdWeapon_10
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 153
+        width: 112
+        height: 76
+      alignment: 9
+      pivot: {x: 0.24842861, y: 0.50800145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c725ee93e00def47b5348be43aa017e
+      internalID: 169111905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManWithColdWeapon_11
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 60
+        width: 112
+        height: 64
+      alignment: 9
+      pivot: {x: 0.24901764, y: 0.4645139}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e723d3dd9c70a054b875f3ba4dccc05b
+      internalID: 204798236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ManWithColdWeapon_0: -1131791182
+      ManWithColdWeapon_1: 1052268197
+      ManWithColdWeapon_10: 169111905
+      ManWithColdWeapon_11: 204798236
+      ManWithColdWeapon_2: 1158707952
+      ManWithColdWeapon_3: 1662177042
+      ManWithColdWeapon_4: -1074794314
+      ManWithColdWeapon_5: 34216619
+      ManWithColdWeapon_6: -51102093
+      ManWithColdWeapon_7: -460876947
+      ManWithColdWeapon_8: -111611485
+      ManWithColdWeapon_9: 1782025916
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
