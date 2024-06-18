@@ -444,7 +444,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8.0473795
+  orthographic size: 6.972604
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -793,6 +793,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 0
   id: 0
+  ammo: 0
+  maxAmmo: 0
   CrowbarPlayer: {fileID: 6071004288567213255, guid: 39a6d7c33815fcb49a2ec0b934fb1da8, type: 3}
   PistolPlayer: {fileID: 6071004288567213255, guid: bc33438bad431be4ca604f336c7ba813, type: 3}
 --- !u!4 &1145426844

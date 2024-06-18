@@ -8,6 +8,8 @@ public class WeaponManagment : MonoBehaviour
     public static WeaponManagment instance;
     public int type;
     public int id;
+    public int ammo;
+    public int maxAmmo;
     [SerializeField] GameObject CrowbarPlayer;
     [SerializeField] GameObject PistolPlayer;
     void Awake() 

@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class PlayerPistolShoot : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -12,10 +12,13 @@ public class PlayerPistolShoot : MonoBehaviour
     [SerializeField] float bulletSpeed = 30;
     float cooldown = 0.1f;
     float lastFireTime;
+
     [SerializeField] GameObject BasicPlayer;
+
     void Start()
     {
         FirePoint = transform.GetChild(0).transform;
+
     }
 
     void Update()
@@ -26,17 +29,22 @@ public class PlayerPistolShoot : MonoBehaviour
             {
                 GameObject weapon = Instantiate(CurWeapon, FirePoint.position, FirePoint.rotation);
                 weapon.GetComponent<Rigidbody2D>().AddForce(FirePoint.up* throwSpeed, ForceMode2D.Impulse);
+                weapon.GetComponent<PickUpPistol>().ammo = WeaponManagment.instance.ammo;
                 WeaponManagment.instance.type = 0;    // fixed
                 WeaponManagment.instance.id = 0;   // fixed
+                WeaponManagment.instance.ammo = 0;    // fixed
+                WeaponManagment.instance.maxAmmo = 0; 
                 Instantiate(BasicPlayer, transform.position, transform.rotation);
                 Destroy(gameObject);
             }
-            if(Input.GetMouseButtonDown(0))
+            if(Input.GetMouseButtonDown(0) &&  WeaponManagment.instance.ammo > 0)
             {
                 GameObject projectile = Instantiate(Bullet, FirePoint.position, FirePoint.rotation);
                 projectile.GetComponent<Rigidbody2D>().AddForce(FirePoint.up* bulletSpeed, ForceMode2D.Impulse);
                 lastFireTime = Time.time;
+                WeaponManagment.instance.ammo--;
             }
         }
     }
+
 }
