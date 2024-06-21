@@ -11,7 +11,8 @@ public class PickUpPistol : MonoBehaviour
     [SerializeField] bool inZone;
     void Start()
     {
-        id = Random.Range(0,10000);
+        if(id  ==0)
+            id = Random.Range(0,10000);
     }
 
     // Update is called once per frame

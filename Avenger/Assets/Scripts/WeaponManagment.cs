@@ -12,6 +12,8 @@ public class WeaponManagment : MonoBehaviour
     public int maxAmmo;
     [SerializeField] GameObject CrowbarPlayer;
     [SerializeField] GameObject PistolPlayer;
+    [SerializeField] GameObject SubmachinePlayer;
+    [SerializeField] GameObject ShotgunPlayer;
     void Awake() 
     {
         instance = this;
@@ -41,7 +43,14 @@ public class WeaponManagment : MonoBehaviour
             Instantiate(PistolPlayer, Player.transform.position, Player.transform.rotation);
             Destroy(Player);
             break;
-
+            case 3:
+            Instantiate(SubmachinePlayer, Player.transform.position, Player.transform.rotation);
+            Destroy(Player);
+            break;
+            case 4:
+            Instantiate(ShotgunPlayer, Player.transform.position, Player.transform.rotation);
+            Destroy(Player);
+            break;
         }
 
     }
