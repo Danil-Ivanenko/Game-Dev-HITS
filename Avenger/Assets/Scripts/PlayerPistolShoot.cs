@@ -18,7 +18,13 @@ public class PlayerPistolShoot : MonoBehaviour
     void Start()
     {
         FirePoint = transform.GetChild(0).transform;
-
+        if(Time.time < 1f)
+        {
+            WeaponManagment.instance.type = 2;    // fixed
+            WeaponManagment.instance.id = Random.Range(0,10000);   // fixed
+            WeaponManagment.instance.ammo = 12;    // fixed
+            WeaponManagment.instance.maxAmmo = 12; 
+        }
     }
 
     void Update()
