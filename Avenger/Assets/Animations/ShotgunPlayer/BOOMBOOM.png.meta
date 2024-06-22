@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: a67772b65c8748249a2fb78da363dd29
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BOOMBOOM_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1688
+        width: 71
+        height: 120
+      alignment: 9
+      pivot: {x: 0.49626428, y: 0.28116658}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688b9b2d167826a4cb55e59617574df9
+      internalID: 574815906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOOMBOOM_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1557
+        width: 72
+        height: 125
+      alignment: 9
+      pivot: {x: 0.5000003, y: 0.30901757}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d6cb1822b92634a9d3c4a61de177b7
+      internalID: -993638706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOOMBOOM_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1405
+        width: 72
+        height: 134
+      alignment: 9
+      pivot: {x: 0.49631628, y: 0.35945606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5e773e0aab95e42b585525ad696d84
+      internalID: -1897744849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOOMBOOM_3
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1261
+        width: 72
+        height: 125
+      alignment: 9
+      pivot: {x: 0.49631628, y: 0.31326172}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ad7326484602b4f800c2df467b975b
+      internalID: 1589944326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOOMBOOM_4
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1100
+        width: 71
+        height: 120
+      alignment: 9
+      pivot: {x: 0.49252802, y: 0.28116658}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4261138ccef5a2d49b60d813de135427
+      internalID: 2131029376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOOMBOOM_5
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 940
+        width: 68
+        height: 120
+      alignment: 9
+      pivot: {x: 0.4687941, y: 0.28116608}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8816219f67f0c4e9aa69b64d9bcf7d
+      internalID: -1015894698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOOMBOOM_6
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 793
+        width: 68
+        height: 121
+      alignment: 9
+      pivot: {x: 0.4687941, y: 0.28735906}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e2b84d5825cb64f97201f6c930f1e3
+      internalID: 1308652894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOOMBOOM_7
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 644
+        width: 68
+        height: 119
+      alignment: 9
+      pivot: {x: 0.47269484, y: 0.31053355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82736788d9559e4b9db56eac5d49695
+      internalID: 260964146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOOMBOOM_8
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 500
+        width: 68
+        height: 131
+      alignment: 9
+      pivot: {x: 0.47269484, y: 0.34206292}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0435189711dcc2f4fa571cfd4ab5da2d
+      internalID: -1876124370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOOMBOOM_9
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 363
+        width: 68
+        height: 123
+      alignment: 9
+      pivot: {x: 0.47269484, y: 0.29944295}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d02cc885b1a93489cfa7aaf6b107a2
+      internalID: 342951424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOOMBOOM_10
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 182
+        width: 68
+        height: 121
+      alignment: 9
+      pivot: {x: 0.47269484, y: 0.28735906}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c88cb1c23e4cdc48b7e5afa54d1f77c
+      internalID: -831333622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOOMBOOM_11
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 33
+        width: 68
+        height: 120
+      alignment: 9
+      pivot: {x: 0.47269484, y: 0.28116608}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5509ec0dc2b9c344fb1c5bbbb09d7262
+      internalID: 1080686757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BOOMBOOM_0: 574815906
+      BOOMBOOM_1: -993638706
+      BOOMBOOM_10: -831333622
+      BOOMBOOM_11: 1080686757
+      BOOMBOOM_2: -1897744849
+      BOOMBOOM_3: 1589944326
+      BOOMBOOM_4: 2131029376
+      BOOMBOOM_5: -1015894698
+      BOOMBOOM_6: 1308652894
+      BOOMBOOM_7: 260964146
+      BOOMBOOM_8: -1876124370
+      BOOMBOOM_9: 342951424
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

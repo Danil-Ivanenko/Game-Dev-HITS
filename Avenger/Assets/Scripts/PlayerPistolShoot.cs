@@ -36,6 +36,7 @@ public class PlayerPistolShoot : MonoBehaviour
                 GameObject weapon = Instantiate(CurWeapon, FirePoint.position, FirePoint.rotation);
                 weapon.GetComponent<Rigidbody2D>().AddForce(FirePoint.up* throwSpeed, ForceMode2D.Impulse);
                 weapon.GetComponent<PickUpPistol>().ammo = WeaponManagment.instance.ammo;
+                weapon.GetComponent<PickUpPistol>().id = WeaponManagment.instance.id;
                 WeaponManagment.instance.type = 0;    // fixed
                 WeaponManagment.instance.id = 0;   // fixed
                 WeaponManagment.instance.ammo = 0;    // fixed

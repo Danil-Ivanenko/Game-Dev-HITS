@@ -34,8 +34,9 @@ public class PlayerMeleeAttack : MonoBehaviour
             {
                 GameObject weapon = Instantiate(CurWeapon, FirePoint.position, FirePoint.rotation);
                 weapon.GetComponent<Rigidbody2D>().AddForce(FirePoint.up* throwSpeed, ForceMode2D.Impulse);
+                 weapon.GetComponent<PickUpWeapon>().id = WeaponManagment.instance.id;
                 WeaponManagment.instance.type = 0;    // fixed
-                WeaponManagment.instance.id = 0;   // fixed
+                WeaponManagment.instance.id = 0;   // fixed1
                 Instantiate(BasicPlayer, transform.position, transform.rotation);
                 Destroy(gameObject);
             }
