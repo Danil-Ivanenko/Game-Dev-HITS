@@ -2,21 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Pathfinding;
-
-public class moveEnemy1 : MonoBehaviour
+public class EnemyShotgunMove : MonoBehaviour
 {
-    public Transform[] targets;
+public Transform[] targets;
     public float delay = 0;
     [SerializeField] int startAngle;
+    [SerializeField] GameObject Bullet;
+    [SerializeField] Transform FirePoint;
+    [SerializeField] float throwSpeed = 255;
+    [SerializeField] float bulletSpeed = 30;
     int index;
     bool chase;
+    bool visible;
     IAstarAI agent;
     float switchTime = float.PositiveInfinity;
     GameObject Player;
     Transform playerPos;
     FOVenemy fov;
     EnemyHP HP;
-
+    float cooldown = 1.5f;
+    float lastFireTime;
     void Awake () 
     {
         agent = GetComponent<IAstarAI>();
@@ -25,9 +30,9 @@ public class moveEnemy1 : MonoBehaviour
     }
     void Start() 
     {
-
         Player = GameObject.FindGameObjectWithTag("Player");
         fov = GetComponent<FOVenemy>();
+        FirePoint = transform.GetChild(0).transform;
     }
 
     
@@ -39,7 +44,22 @@ public class moveEnemy1 : MonoBehaviour
                 Player = GameObject.FindGameObjectWithTag("Player");
             }
             chase = fov.chase;
+            visible = fov.visible;
             playerPos= Player.transform;
+            
+            if(visible && Time.time > lastFireTime + cooldown && fov.angleView<10)
+            {
+
+                
+                GameObject projectile1 = Instantiate(Bullet, FirePoint.position, FirePoint.rotation);
+                GameObject projectile2 = Instantiate(Bullet, FirePoint.position, FirePoint.rotation);
+                GameObject projectile3 = Instantiate(Bullet, FirePoint.position, FirePoint.rotation);
+                projectile1.GetComponent<Rigidbody2D>().AddForce((FirePoint.up + new Vector3(-0.1f, -0.1f, 0.0f)) * bulletSpeed, ForceMode2D.Impulse);
+                projectile2.GetComponent<Rigidbody2D>().AddForce(FirePoint.up* bulletSpeed, ForceMode2D.Impulse);
+                projectile3.GetComponent<Rigidbody2D>().AddForce((FirePoint.up + new Vector3(+0.1f, +0.1f, 0.0f))* bulletSpeed, ForceMode2D.Impulse);
+
+                lastFireTime = Time.time;
+            }
 
             if(!chase) 
             {

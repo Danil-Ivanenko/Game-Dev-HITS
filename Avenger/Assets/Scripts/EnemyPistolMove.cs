@@ -23,14 +23,18 @@ public Transform[] targets;
     EnemyHP HP;
     float cooldown = 0.5f;
     float lastFireTime;
+ 
+
     void Awake () 
     {
+
         agent = GetComponent<IAstarAI>();
         transform.eulerAngles = new Vector3(0, 0, startAngle );
         HP = GetComponent<EnemyHP>();
     }
     void Start() 
     {
+
         Player = GameObject.FindGameObjectWithTag("Player");
         fov = GetComponent<FOVenemy>();
         FirePoint = transform.GetChild(0).transform;
@@ -47,8 +51,7 @@ public Transform[] targets;
             chase = fov.chase;
             visible = fov.visible;
             playerPos= Player.transform;
-            
-            if(visible && Time.time > lastFireTime + cooldown)
+            if(visible && Time.time > lastFireTime + cooldown && fov.angleView<10 )
             {
                 GameObject projectile = Instantiate(Bullet, FirePoint.position, FirePoint.rotation);
                 projectile.GetComponent<Rigidbody2D>().AddForce(FirePoint.up* bulletSpeed, ForceMode2D.Impulse);

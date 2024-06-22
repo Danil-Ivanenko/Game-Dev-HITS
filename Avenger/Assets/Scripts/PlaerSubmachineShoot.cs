@@ -11,11 +11,13 @@ public class PlaerSubmachineShoot : MonoBehaviour
     [SerializeField] float bulletSpeed = 30;
     float cooldown = 0.05f;
     float lastFireTime;
-
+    Collider2D NoiseZone;
     [SerializeField] GameObject BasicPlayer;
 
     void Start()
     {
+
+        NoiseZone = transform.GetChild(1).GetComponent<Collider2D>();
         FirePoint = transform.GetChild(0).transform;
         if(Time.time < 1f)
         {
@@ -49,6 +51,11 @@ public class PlaerSubmachineShoot : MonoBehaviour
                 projectile.GetComponent<Rigidbody2D>().AddForce(FirePoint.up* bulletSpeed, ForceMode2D.Impulse);
                 lastFireTime = Time.time;
                 WeaponManagment.instance.ammo--;
+                NoiseZone.enabled =true;
+            }
+            else
+            {
+                NoiseZone.enabled =false;
             }
         }
     }
