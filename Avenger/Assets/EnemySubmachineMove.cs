@@ -2,20 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Pathfinding;
-
-public class moveEnemy1 : MonoBehaviour
+public class EnemySubmachineMove : MonoBehaviour
 {
-    public Transform[] targets;
+public Transform[] targets;
     public float delay = 0;
     [SerializeField] int startAngle;
+    [SerializeField] GameObject Bullet;
+    [SerializeField] Transform FirePoint;
+    [SerializeField] float throwSpeed = 255;
+    [SerializeField] float bulletSpeed = 30;
     int index;
     bool chase;
+    bool visible;
     IAstarAI agent;
     float switchTime = float.PositiveInfinity;
     GameObject Player;
     Transform playerPos;
     FOVenemy fov;
     EnemyHP HP;
+    float cooldown = 0.06f;
+    int reloadinAmmo =0;
+    float reloadCooldown = 2.5f;
+    float lastFireTime;
 
     void Awake () 
     {
@@ -25,9 +33,9 @@ public class moveEnemy1 : MonoBehaviour
     }
     void Start() 
     {
-
         Player = GameObject.FindGameObjectWithTag("Player");
         fov = GetComponent<FOVenemy>();
+        FirePoint = transform.GetChild(0).transform;
     }
 
     
@@ -39,7 +47,21 @@ public class moveEnemy1 : MonoBehaviour
                 Player = GameObject.FindGameObjectWithTag("Player");
             }
             chase = fov.chase;
+            visible = fov.visible;
             playerPos= Player.transform;
+            if(reloadinAmmo >30)
+            {
+                StartCoroutine(ReloadCoroutine());
+            }
+            
+            if(visible && Time.time > lastFireTime + cooldown && reloadinAmmo <=30  && fov.angleView<10)
+            {
+
+                GameObject projectile = Instantiate(Bullet, FirePoint.position, FirePoint.rotation);
+                projectile.GetComponent<Rigidbody2D>().AddForce(FirePoint.up* bulletSpeed, ForceMode2D.Impulse);
+                lastFireTime = Time.time;
+                reloadinAmmo++;
+            }
 
             if(!chase) 
             {
@@ -79,4 +101,11 @@ public class moveEnemy1 : MonoBehaviour
             chase = true;
         }
     }
+
+    IEnumerator ReloadCoroutine()
+    {
+        yield return new WaitForSeconds(1.5f);
+        reloadinAmmo =0;
+    }
+
 }

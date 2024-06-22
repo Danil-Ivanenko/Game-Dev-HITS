@@ -11,11 +11,13 @@ public class PlayerShothunShoot : MonoBehaviour
     [SerializeField] float bulletSpeed = 30;
     float cooldown = 0.5f;
     float lastFireTime;
-
+    Collider2D NoiseZone;
     [SerializeField] GameObject BasicPlayer;
 
     void Start()
     {
+
+        NoiseZone = transform.GetChild(1).GetComponent<Collider2D>();
         FirePoint = transform.GetChild(0).transform;
         if(Time.time < 1f)
         {
@@ -53,6 +55,11 @@ public class PlayerShothunShoot : MonoBehaviour
                 projectile3.GetComponent<Rigidbody2D>().AddForce((FirePoint.up + new Vector3(+0.1f, +0.1f, 0.0f))* bulletSpeed, ForceMode2D.Impulse);
                 lastFireTime = Time.time;
                 WeaponManagment.instance.ammo--;
+                NoiseZone.enabled =true;
+            }
+            else
+            {
+                NoiseZone.enabled =false;
             }
         }
     }

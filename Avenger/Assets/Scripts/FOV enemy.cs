@@ -16,18 +16,19 @@ public class FOVenemy : MonoBehaviour
     float targetDist;
     public bool chase;
     Vector2 targetDirection;
-
+    public bool hear;
 
     void Update()
     {
         FOVcheck();
-        if( visible && !chase)
+        if( (visible && !chase) || hear )
         {
             chase = true;
             StartCoroutine(Chasing());
         }
+        //FOVcheck();
     }
-
+    public float angleView;
     void OnDrawGizmos() 
     {
         UnityEditor.Handles.DrawWireDisc(transform.position, transform.forward, FOVradius);
@@ -51,6 +52,7 @@ public class FOVenemy : MonoBehaviour
             targetTransform = targetCol[0].transform;
             targetDirection = (targetTransform.position - transform.position).normalized;
             targetDist = Vector2.Distance(transform.position, targetTransform.position);
+            angleView = Vector2.Angle(transform.up, targetDirection); //added
             if(Vector2.Angle(transform.up, targetDirection) < viewAngle)
             {
                 if(!Physics2D.Raycast(transform.position, targetDirection, targetDist, wallsLayer))
