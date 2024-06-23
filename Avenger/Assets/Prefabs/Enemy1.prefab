@@ -37,8 +37,8 @@ Transform:
   m_GameObject: {fileID: 876160253705886947}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.047, y: 3.18, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 4.2229347, y: 2.97, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5734168335781803373}
@@ -85,7 +85,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -1327053989, guid: 4f7fa8e0870042c478b9331b492c18e6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -267,7 +267,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 5.78
+  m_Radius: 6.07
 --- !u!114 &3989351296804032796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -280,11 +280,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1b9ef2031a6205478c50807f164e12a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targets:
-  - {fileID: 0}
-  - {fileID: 0}
+  targets: []
   delay: 0
-  startAngle: 180
+  startAngle: 0
 --- !u!114 &8144018272463277855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -621,4 +619,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b810f9ecdb15bb4999d95704a0c38d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attack: 1
+  attack: 0
