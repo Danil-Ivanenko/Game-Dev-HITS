@@ -24,10 +24,9 @@ public class EnemyHP : MonoBehaviour
             
 
             AnimScript.AnimDead = true;
-            if(dead == false)
-            {
-                Instantiate(Weapon, transform.position, transform.rotation);
-            }
+
+            Instantiate(Weapon, transform.position, transform.rotation);
+            
             dead = true;
             gameObject.GetComponent<Collider2D>().enabled = false; // fixed
             
@@ -42,6 +41,7 @@ public class EnemyHP : MonoBehaviour
                 AnimScript.AnimDead = true;
                 dead = true;
                 gameObject.GetComponent<Collider2D>().enabled = false; // fixed
+                Instantiate(Weapon, transform.position, transform.rotation);
             }
             
         }

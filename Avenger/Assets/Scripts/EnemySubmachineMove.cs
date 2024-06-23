@@ -9,7 +9,6 @@ public Transform[] targets;
     [SerializeField] int startAngle;
     [SerializeField] GameObject Bullet;
     [SerializeField] Transform FirePoint;
-    [SerializeField] float throwSpeed = 255;
     [SerializeField] float bulletSpeed = 30;
     int index;
     bool chase;
