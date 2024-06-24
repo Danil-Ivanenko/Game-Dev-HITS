@@ -6,7 +6,7 @@ public class WeaponManagment : MonoBehaviour
 {
     // Start is called before the first frame update
     public static WeaponManagment instance;
-    public int type;
+    public int type; // 0 - кулаки, 1 - бита, 2 - пистолет, 3 - пп, 4 - дробовик
     public int id;
     public int ammo;
     public int maxAmmo;
