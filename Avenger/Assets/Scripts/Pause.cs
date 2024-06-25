@@ -43,4 +43,10 @@ public class Pause : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene("FirstScreen");
     }
+
+    public void BackToBase()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Base");
+    }
 }

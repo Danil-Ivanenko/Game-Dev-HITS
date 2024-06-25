@@ -40,20 +40,20 @@ public class moveInScene : MonoBehaviour
         SceneManager.LoadScene("map7");
     }
     
-    // public void StartEighthLevel()
-    // {
-    //     SceneManager.LoadScene("map8");
-    // }
-    //
-    // public void StartNinthLevel()
-    // {
-    //     SceneManager.LoadScene("map9");
-    // }
-    //
-    // public void StartTenthLevel()
-    // {
-    //     SceneManager.LoadScene("map10");
-    // }
+    public void StartEighthLevel()
+    {
+        SceneManager.LoadScene("map8");
+    }
+    
+    public void StartNinthLevel()
+    {
+        SceneManager.LoadScene("map9");
+    }
+    
+    public void StartTenthLevel()
+    {
+        SceneManager.LoadScene("map10");
+    }
 
     public void MoveInTutorial()
     {
