@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class PlayerPistolShoot : MonoBehaviour
+public class PlayerPistolShoot : ShotSounds
 {
     // Start is called before the first frame update
     [SerializeField] GameObject CurWeapon;
@@ -51,6 +51,7 @@ public class PlayerPistolShoot : MonoBehaviour
                 GameObject projectile = Instantiate(Bullet, FirePoint.position, FirePoint.rotation);
                 projectile.GetComponent<Rigidbody2D>().AddForce(FirePoint.up* bulletSpeed, ForceMode2D.Impulse);
                 lastFireTime = Time.time;
+                PlaySound(soundsArray[0]);
                 WeaponManagment.instance.ammo--;
                 NoiseZone.enabled =true;
             }

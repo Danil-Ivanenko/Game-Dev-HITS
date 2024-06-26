@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerShothunShoot : MonoBehaviour
+public class PlayerShothunShoot : ShotSounds
 {
 [SerializeField] GameObject CurWeapon;
     [SerializeField] GameObject Bullet;
@@ -54,6 +54,7 @@ public class PlayerShothunShoot : MonoBehaviour
                 projectile2.GetComponent<Rigidbody2D>().AddForce(FirePoint.up* bulletSpeed, ForceMode2D.Impulse);
                 projectile3.GetComponent<Rigidbody2D>().AddForce((FirePoint.up + new Vector3(+0.1f, +0.1f, 0.0f))* bulletSpeed, ForceMode2D.Impulse);
                 lastFireTime = Time.time;
+                PlaySound(soundsArray[0]);
                 WeaponManagment.instance.ammo--;
                 NoiseZone.enabled =true;
             }

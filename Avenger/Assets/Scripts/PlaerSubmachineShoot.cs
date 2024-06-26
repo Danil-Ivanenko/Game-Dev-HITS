@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlaerSubmachineShoot : MonoBehaviour
+public class PlaerSubmachineShoot : ShotSounds
 {
  [SerializeField] GameObject CurWeapon;
     [SerializeField] GameObject Bullet;
@@ -50,6 +50,7 @@ public class PlaerSubmachineShoot : MonoBehaviour
                 GameObject projectile = Instantiate(Bullet, FirePoint.position, FirePoint.rotation);
                 projectile.GetComponent<Rigidbody2D>().AddForce(FirePoint.up* bulletSpeed, ForceMode2D.Impulse);
                 lastFireTime = Time.time;
+                PlaySound(soundsArray[0]);
                 WeaponManagment.instance.ammo--;
                 NoiseZone.enabled =true;
             }

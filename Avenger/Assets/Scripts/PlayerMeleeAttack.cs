@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMeleeAttack : MonoBehaviour
+public class PlayerMeleeAttack : ShotSounds
 {
     // Start is called before the first frame update
     [SerializeField] GameObject CurWeapon;
@@ -44,6 +44,7 @@ public class PlayerMeleeAttack : MonoBehaviour
             if(Input.GetMouseButtonUp(0))
             {
                 MelleeAttack();
+                PlaySound(soundsArray[0]);
             }
         }
 
