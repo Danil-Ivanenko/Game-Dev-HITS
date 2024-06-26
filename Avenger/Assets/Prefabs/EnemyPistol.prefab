@@ -291,6 +291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdeb999908c131c479c68421e5031164, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundsArray: []
   AnimDead: 0
   AnimAttack: 0
 --- !u!114 &2558541953064297668
@@ -319,12 +320,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47205235673f497409b524c52b1688d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundsArray:
+  - {fileID: 8300000, guid: 7dc50e4ee4a2f459ab9b29359c5755de, type: 3}
+  - {fileID: 8300000, guid: de5ac513b7fad4440b72902a1b4e6519, type: 3}
   targets: []
   delay: 0
   startAngle: 0
   Bullet: {fileID: 4098227034994501502, guid: eacdfc46c1ab1454f8abca6fb9ba2969, type: 3}
   FirePoint: {fileID: 0}
-  throwSpeed: 255
   bulletSpeed: 30
 --- !u!1 &1997711525440319406
 GameObject:

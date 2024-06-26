@@ -10,5 +10,6 @@ public class ShotSounds : MonoBehaviour
     public void PlaySound(AudioClip clip, float volume = 1)
     {
         audioSrc.PlayOneShot(clip, volume);
+        
     }
 }

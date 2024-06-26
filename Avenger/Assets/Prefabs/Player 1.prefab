@@ -305,7 +305,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27c796fc764573a40809a05f5e40247a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundsArray: []
+  soundsArray:
+  - {fileID: 8300000, guid: ed0b7bf829baf4acf890268efb87140e, type: 3}
   CurWeapon: {fileID: 0}
   attack: 0
 --- !u!114 &-5966009181266312009

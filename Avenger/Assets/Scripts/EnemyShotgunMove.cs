@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Pathfinding;
-public class EnemyShotgunMove : MonoBehaviour
+public class EnemyShotgunMove : ShotSounds
 {
 public Transform[] targets;
     public float delay = 0;
@@ -15,6 +15,7 @@ public Transform[] targets;
     bool chase;
     bool visible;
     IAstarAI agent;
+    private bool soundPlayed = false;
     float switchTime = float.PositiveInfinity;
     GameObject Player;
     Transform playerPos;
@@ -57,6 +58,7 @@ public Transform[] targets;
                 projectile1.GetComponent<Rigidbody2D>().AddForce((FirePoint.up + new Vector3(-0.1f, -0.1f, 0.0f)) * bulletSpeed, ForceMode2D.Impulse);
                 projectile2.GetComponent<Rigidbody2D>().AddForce(FirePoint.up* bulletSpeed, ForceMode2D.Impulse);
                 projectile3.GetComponent<Rigidbody2D>().AddForce((FirePoint.up + new Vector3(+0.1f, +0.1f, 0.0f))* bulletSpeed, ForceMode2D.Impulse);
+                PlaySound(soundsArray[0]);
 
                 lastFireTime = Time.time;
             }
@@ -89,6 +91,11 @@ public Transform[] targets;
         else
         {
             agent.destination = transform.position;
+            if (!soundPlayed)
+            {
+                PlaySound(soundsArray[1]);
+                soundPlayed = true;
+            }
         }
     }
 
