@@ -93,7 +93,6 @@ public Transform[] targets;
                 PlaySound(soundsArray[1]);
                 soundPlayed = true;
             }
-            
         }
     }
  

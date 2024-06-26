@@ -292,6 +292,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 767c96111a28a5b48b1ab2579c9ea61b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundsArray:
+  - {fileID: 0}
   dead: 0
 --- !u!114 &8759064622105366459
 MonoBehaviour:

@@ -360,7 +360,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundsArray:
   - {fileID: 8300000, guid: 314d7380a6f6941c9b94f85df97c35cc, type: 3}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: de5ac513b7fad4440b72902a1b4e6519, type: 3}
   targets: []
   delay: 0
   startAngle: 0

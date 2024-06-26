@@ -7,6 +7,7 @@ public class EnemyHP : MonoBehaviour
     public bool dead;
     EnemyAnimation AnimScript;
     [SerializeField] GameObject Weapon;
+    private bool soundPlayed = false;
     void Start()
     {
         AnimScript = GetComponent<EnemyAnimation>();
