@@ -13,6 +13,7 @@ public class PlayerMeleeAttack : ShotSounds
     [SerializeField] GameObject BasicPlayer;
     BoxCollider2D  col;
     Animator anim;
+    private bool isPlayed = false;
     float cooldown = 0.75f;
     float lastFireTime =- 0.75f;
     public bool attack;
@@ -37,6 +38,11 @@ public class PlayerMeleeAttack : ShotSounds
                  weapon.GetComponent<PickUpWeapon>().id = WeaponManagment.instance.id;
                 WeaponManagment.instance.type = 0;    // fixed
                 WeaponManagment.instance.id = 0;   // fixed1
+                if (!isPlayed)
+                {
+                    PlaySound(soundsArray[1]);
+                    isPlayed = true;
+                }
                 Instantiate(BasicPlayer, transform.position, transform.rotation);
                 Destroy(gameObject);
             }

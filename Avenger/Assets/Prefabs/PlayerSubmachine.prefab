@@ -253,6 +253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundsArray:
   - {fileID: 8300000, guid: 314d7380a6f6941c9b94f85df97c35cc, type: 3}
+  - {fileID: 8300000, guid: 88330af959cef447daf64b69bcdfe4f8, type: 3}
   CurWeapon: {fileID: 1510036387219466806, guid: 95cd6b437c5e7354c9f99de349754caf, type: 3}
   Bullet: {fileID: 4098227034994501502, guid: aa71ea3db50995046acc74b4fafea2f3, type: 3}
   FirePoint: {fileID: 0}

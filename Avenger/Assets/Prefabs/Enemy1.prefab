@@ -342,6 +342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdeb999908c131c479c68421e5031164, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundsArray: []
   AnimDead: 0
   AnimAttack: 0
 --- !u!114 &2558541953064297668
@@ -356,6 +357,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9673b96a9103fb845a61fcddb72bb8f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundsArray:
+  - {fileID: 8300000, guid: de5ac513b7fad4440b72902a1b4e6519, type: 3}
   dead: 0
   Weapon: {fileID: 1510036387219466806, guid: b2dfc21a61fb96d409452948601140f8, type: 3}
 --- !u!1 &3820453315249656303

@@ -12,6 +12,7 @@ public class PlayerPistolShoot : ShotSounds
     [SerializeField] float bulletSpeed = 30;
     float cooldown = 0.1f;
     float lastFireTime;
+    private bool isPlayed = false;
     Collider2D NoiseZone;
     [SerializeField] GameObject BasicPlayer;
 
@@ -43,6 +44,11 @@ public class PlayerPistolShoot : ShotSounds
                 WeaponManagment.instance.id = 0;   // fixed
                 WeaponManagment.instance.ammo = 0;    // fixed
                 WeaponManagment.instance.maxAmmo = 0; 
+                if (!isPlayed)
+                {
+                    PlaySound(soundsArray[1]);
+                    isPlayed = true;
+                }
                 Instantiate(BasicPlayer, transform.position, transform.rotation);
                 Destroy(gameObject);
             }

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyHP : MonoBehaviour
+public class EnemyHP : ShotSounds
 {
     public bool dead;
     EnemyAnimation AnimScript;
@@ -22,13 +22,16 @@ public class EnemyHP : MonoBehaviour
     {
         if(other.tag == "PlayerBullet" )
         {
-            
-
+            if (!soundPlayed)
+            {
+                PlaySound(soundsArray[0]);
+                soundPlayed = true;
+            }
             AnimScript.AnimDead = true;
 
             Instantiate(Weapon, transform.position, transform.rotation);
-            
             dead = true;
+            
             gameObject.GetComponent<Collider2D>().enabled = false; // fixed
             
         }
@@ -39,8 +42,15 @@ public class EnemyHP : MonoBehaviour
             if(rb.velocity.magnitude > 10f)
             {
                 rb.velocity = new Vector2(rb.velocity.x/2, rb.velocity.y/2);
+                if (!soundPlayed)
+                {
+                    PlaySound(soundsArray[0]);
+                    soundPlayed = true;
+                }
                 AnimScript.AnimDead = true;
+                
                 dead = true;
+                
                 gameObject.GetComponent<Collider2D>().enabled = false; // fixed
                 Instantiate(Weapon, transform.position, transform.rotation);
             }
