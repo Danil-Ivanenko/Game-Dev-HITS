@@ -640,7 +640,7 @@ GameObject:
   - component: {fileID: 4479846895720951669}
   - component: {fileID: 7076255201881514759}
   - component: {fileID: 9121536625983174552}
-  - component: {fileID: 5611767236734726833}
+  - component: {fileID: 9194121205089501450}
   m_Layer: 0
   m_Name: DeathZone
   m_TagString: EnemyBullet
@@ -723,7 +723,7 @@ MonoBehaviour:
   soundsArray:
   - {fileID: 8300000, guid: ed0b7bf829baf4acf890268efb87140e, type: 3}
   attack: 0
---- !u!82 &5611767236734726833
+--- !u!82 &9194121205089501450
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

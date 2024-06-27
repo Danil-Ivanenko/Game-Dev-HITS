@@ -42,6 +42,7 @@ public class EnemyHP : ShotSounds
             {
                 rb.velocity = new Vector2(rb.velocity.x/2, rb.velocity.y/2);
                 gameObject.GetComponent<Collider2D>().enabled = false; // fixed
+                Instantiate(Weapon, transform.position, transform.rotation);
                 PlaySound(soundsArray[0]);
 
 
@@ -50,7 +51,7 @@ public class EnemyHP : ShotSounds
                 dead = true;
                 EnemyManager.instance.aliveEnemies--;
                 
-                Instantiate(Weapon, transform.position, transform.rotation);
+                
             }
             
         }
