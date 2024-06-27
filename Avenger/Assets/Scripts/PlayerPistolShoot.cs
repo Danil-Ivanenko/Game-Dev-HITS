@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class PlayerPistolShoot : MonoBehaviour
+public class PlayerPistolShoot : ShotSounds
 {
     // Start is called before the first frame update
     [SerializeField] GameObject CurWeapon;
@@ -12,6 +12,7 @@ public class PlayerPistolShoot : MonoBehaviour
     [SerializeField] float bulletSpeed = 30;
     float cooldown = 0.1f;
     float lastFireTime;
+    private bool isPlayed = false;
     Collider2D NoiseZone;
     [SerializeField] GameObject BasicPlayer;
 
@@ -45,12 +46,14 @@ public class PlayerPistolShoot : MonoBehaviour
                 WeaponManagment.instance.maxAmmo = 0; 
                 Instantiate(BasicPlayer, transform.position, transform.rotation);
                 Destroy(gameObject);
+                AudioSource.PlayClipAtPoint(soundsArray[1], transform.position);
             }
             if(Input.GetMouseButtonDown(0) &&  WeaponManagment.instance.ammo > 0)
             {
                 GameObject projectile = Instantiate(Bullet, FirePoint.position, FirePoint.rotation);
                 projectile.GetComponent<Rigidbody2D>().AddForce(FirePoint.up* bulletSpeed, ForceMode2D.Impulse);
                 lastFireTime = Time.time;
+                PlaySound(soundsArray[0]);
                 WeaponManagment.instance.ammo--;
                 NoiseZone.enabled =true;
             }

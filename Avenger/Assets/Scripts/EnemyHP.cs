@@ -2,14 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyHP : MonoBehaviour
+public class EnemyHP : ShotSounds
 {
     public bool dead;
     EnemyAnimation AnimScript;
     [SerializeField] GameObject Weapon;
+    private bool soundPlayed = false;
+    
     void Start()
     {
         AnimScript = GetComponent<EnemyAnimation>();
+        EnemyManager.instance.aliveEnemies++;
     }
 
     // Update is called once per frame
@@ -21,13 +24,16 @@ public class EnemyHP : MonoBehaviour
     {
         if(other.tag == "PlayerBullet" )
         {
-            
-
+            if (!soundPlayed)
+            {
+                PlaySound(soundsArray[0]);
+                soundPlayed = true;
+            }
             AnimScript.AnimDead = true;
 
             Instantiate(Weapon, transform.position, transform.rotation);
-            
             dead = true;
+            EnemyManager.instance.aliveEnemies--;
             gameObject.GetComponent<Collider2D>().enabled = false; // fixed
             
         }
@@ -38,8 +44,15 @@ public class EnemyHP : MonoBehaviour
             if(rb.velocity.magnitude > 10f)
             {
                 rb.velocity = new Vector2(rb.velocity.x/2, rb.velocity.y/2);
+                if (!soundPlayed)
+                {
+                    PlaySound(soundsArray[0]);
+                    soundPlayed = true;
+                }
                 AnimScript.AnimDead = true;
+                
                 dead = true;
+                EnemyManager.instance.aliveEnemies--;
                 gameObject.GetComponent<Collider2D>().enabled = false; // fixed
                 Instantiate(Weapon, transform.position, transform.rotation);
             }

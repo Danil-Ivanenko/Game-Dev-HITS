@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyMelee : MonoBehaviour
+public class EnemyMelee : ShotSounds
 {
     BoxCollider2D  col;
     public bool attack;
@@ -28,6 +28,7 @@ public class EnemyMelee : MonoBehaviour
         if(!attack && !HP.dead)
         {
             attack = true;
+            PlaySound(soundsArray[0]);
             StartCoroutine(AttackTimer());
         }
         return;

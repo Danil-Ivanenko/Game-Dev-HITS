@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class PlayerHP : MonoBehaviour
+public class PlayerHP : ShotSounds
 {
     public bool dead;
     Animator anim;
     SpriteRenderer Rend;
+    private bool RunSound = false;
     Rigidbody2D Rb;
     void Start()
     {
@@ -21,10 +22,14 @@ public class PlayerHP : MonoBehaviour
         anim.SetBool("Dead", dead);
         if(dead)
         {
+            if (!RunSound)
+            {
+                PlaySound(soundsArray[0]);
+                RunSound = true;
+            }
             if(Input.anyKeyDown)
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-
             }
         }
     }

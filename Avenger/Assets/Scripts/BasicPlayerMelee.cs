@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BasicPlayerMelee : MonoBehaviour
+public class BasicPlayerMelee : ShotSounds
 {
  [SerializeField] GameObject CurWeapon;
 
@@ -38,6 +38,7 @@ public class BasicPlayerMelee : MonoBehaviour
         anim.SetBool("Attack",attack);
         StartCoroutine(AttackTimer());
         lastFireTime = Time.time;
+        PlaySound(soundsArray[0]);
         return;
 
     }
