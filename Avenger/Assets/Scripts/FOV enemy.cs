@@ -31,7 +31,7 @@ public class FOVenemy : MonoBehaviour
     public float angleView;
     void OnDrawGizmos() 
     {
-        UnityEditor.Handles.DrawWireDisc(transform.position, transform.forward, FOVradius);
+        //UnityEditor.Handles.DrawWireDisc(transform.position, transform.forward, FOVradius);
         Vector2 Deg2Rad(float deg, float euler)
         {
 
