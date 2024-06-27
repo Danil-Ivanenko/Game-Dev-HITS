@@ -22,38 +22,34 @@ public class EnemyHP : ShotSounds
     }
     void OnTriggerEnter2D(Collider2D other) 
     {
-        if(other.tag == "PlayerBullet" )
+        if(other.tag == "PlayerBullet" && ! dead)
         {
-            if (!soundPlayed)
-            {
-                PlaySound(soundsArray[0]);
-                soundPlayed = true;
-            }
-            AnimScript.AnimDead = true;
 
+            PlaySound(soundsArray[0]);
+            AnimScript.AnimDead = true;
+            gameObject.GetComponent<Collider2D>().enabled = false; // fixed
             Instantiate(Weapon, transform.position, transform.rotation);
             dead = true;
             EnemyManager.instance.aliveEnemies--;
-            gameObject.GetComponent<Collider2D>().enabled = false; // fixed
+            
             
         }
 
-        if(other.tag == "SingleWeapon" )
+        if(other.tag == "SingleWeapon"  && ! dead)
         {
             Rigidbody2D rb = other.GetComponent<Rigidbody2D>();
             if(rb.velocity.magnitude > 10f)
             {
                 rb.velocity = new Vector2(rb.velocity.x/2, rb.velocity.y/2);
-                if (!soundPlayed)
-                {
-                    PlaySound(soundsArray[0]);
-                    soundPlayed = true;
-                }
+                gameObject.GetComponent<Collider2D>().enabled = false; // fixed
+                PlaySound(soundsArray[0]);
+
+
                 AnimScript.AnimDead = true;
                 
                 dead = true;
                 EnemyManager.instance.aliveEnemies--;
-                gameObject.GetComponent<Collider2D>().enabled = false; // fixed
+                
                 Instantiate(Weapon, transform.position, transform.rotation);
             }
             
