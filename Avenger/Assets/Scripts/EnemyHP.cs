@@ -8,9 +8,11 @@ public class EnemyHP : ShotSounds
     EnemyAnimation AnimScript;
     [SerializeField] GameObject Weapon;
     private bool soundPlayed = false;
+    
     void Start()
     {
         AnimScript = GetComponent<EnemyAnimation>();
+        EnemyManager.instance.aliveEnemies++;
     }
 
     // Update is called once per frame
@@ -31,7 +33,7 @@ public class EnemyHP : ShotSounds
 
             Instantiate(Weapon, transform.position, transform.rotation);
             dead = true;
-            
+            EnemyManager.instance.aliveEnemies--;
             gameObject.GetComponent<Collider2D>().enabled = false; // fixed
             
         }
@@ -50,7 +52,7 @@ public class EnemyHP : ShotSounds
                 AnimScript.AnimDead = true;
                 
                 dead = true;
-                
+                EnemyManager.instance.aliveEnemies--;
                 gameObject.GetComponent<Collider2D>().enabled = false; // fixed
                 Instantiate(Weapon, transform.position, transform.rotation);
             }

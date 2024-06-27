@@ -92,11 +92,7 @@ public Transform[] targets;
         else
         {
             agent.destination = transform.position;
-            if (!soundPlayed)
-            {
-                PlaySound(soundsArray[1]);
-                soundPlayed = true;
-            }
+
         }
     }
 
