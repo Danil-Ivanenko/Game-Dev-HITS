@@ -94,7 +94,6 @@ GameObject:
   - component: {fileID: 8807269110351411820}
   - component: {fileID: -4923930099661908645}
   - component: {fileID: 8759064622105366459}
-  - component: {fileID: -5966009181266312009}
   - component: {fileID: -1912720738412922408}
   m_Layer: 3
   m_Name: Player 1
@@ -293,7 +292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundsArray:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: de5ac513b7fad4440b72902a1b4e6519, type: 3}
   dead: 0
 --- !u!114 &8759064622105366459
 MonoBehaviour:
@@ -311,20 +310,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: ed0b7bf829baf4acf890268efb87140e, type: 3}
   CurWeapon: {fileID: 0}
   attack: 0
---- !u!114 &-5966009181266312009
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6071004288567213255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f118b4fb7ca149ec993c04ae294b150, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  soundsArray:
-  - {fileID: 8300000, guid: ed0b7bf829baf4acf890268efb87140e, type: 3}
 --- !u!82 &-1912720738412922408
 AudioSource:
   m_ObjectHideFlags: 0

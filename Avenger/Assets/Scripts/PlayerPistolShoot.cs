@@ -44,13 +44,9 @@ public class PlayerPistolShoot : ShotSounds
                 WeaponManagment.instance.id = 0;   // fixed
                 WeaponManagment.instance.ammo = 0;    // fixed
                 WeaponManagment.instance.maxAmmo = 0; 
-                if (!isPlayed)
-                {
-                    PlaySound(soundsArray[1]);
-                    isPlayed = true;
-                }
                 Instantiate(BasicPlayer, transform.position, transform.rotation);
                 Destroy(gameObject);
+                AudioSource.PlayClipAtPoint(soundsArray[1], transform.position);
             }
             if(Input.GetMouseButtonDown(0) &&  WeaponManagment.instance.ammo > 0)
             {

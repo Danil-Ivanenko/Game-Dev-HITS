@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 294683126374913303}
   - component: {fileID: 2558541953064297668}
   - component: {fileID: 8967241025144008491}
-  - component: {fileID: -2119585253665090167}
   - component: {fileID: 179958210819089228}
   m_Layer: 0
   m_Name: EnemySubmachine
@@ -368,19 +367,6 @@ MonoBehaviour:
   Bullet: {fileID: 4098227034994501502, guid: eacdfc46c1ab1454f8abca6fb9ba2969, type: 3}
   FirePoint: {fileID: 0}
   bulletSpeed: 30
---- !u!114 &-2119585253665090167
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 876160253705886947}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f118b4fb7ca149ec993c04ae294b150, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  soundsArray: []
 --- !u!82 &179958210819089228
 AudioSource:
   m_ObjectHideFlags: 0

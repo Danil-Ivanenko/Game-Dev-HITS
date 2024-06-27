@@ -19,7 +19,6 @@ GameObject:
   - component: {fileID: 3931581700868937015}
   - component: {fileID: 1693932483100425948}
   - component: {fileID: -6410236409282734919}
-  - component: {fileID: -4323881959487212799}
   m_Layer: 3
   m_Name: PlayerBar
   m_TagString: Player
@@ -217,6 +216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 411488cdcf224de429d208935ed37287, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundsArray: []
   CurWeapon: {fileID: 1510036387219466806, guid: b2dfc21a61fb96d409452948601140f8, type: 3}
   Bullet: {fileID: 0}
   FirePoint: {fileID: 0}
@@ -252,6 +252,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundsArray:
   - {fileID: 8300000, guid: ed0b7bf829baf4acf890268efb87140e, type: 3}
+  - {fileID: 8300000, guid: 88330af959cef447daf64b69bcdfe4f8, type: 3}
   CurWeapon: {fileID: 1510036387219466806, guid: b2dfc21a61fb96d409452948601140f8, type: 3}
   Bullet: {fileID: 0}
   FirePoint: {fileID: 0}
@@ -355,20 +356,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &-4323881959487212799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6071004288567213255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f118b4fb7ca149ec993c04ae294b150, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  soundsArray:
-  - {fileID: 8300000, guid: ed0b7bf829baf4acf890268efb87140e, type: 3}
 --- !u!1 &8186065961592538789
 GameObject:
   m_ObjectHideFlags: 0

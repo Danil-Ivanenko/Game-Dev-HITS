@@ -22,7 +22,6 @@ GameObject:
   - component: {fileID: 2558541953064297668}
   - component: {fileID: -4313142522989968968}
   - component: {fileID: 434757656984616725}
-  - component: {fileID: -2504864448556698926}
   m_Layer: 0
   m_Name: EnemyShotgun
   m_TagString: Untagged
@@ -465,19 +464,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &-2504864448556698926
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 876160253705886947}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f118b4fb7ca149ec993c04ae294b150, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  soundsArray: []
 --- !u!1 &1997711525440319406
 GameObject:
   m_ObjectHideFlags: 0

@@ -35,6 +35,7 @@ public class PlaerSubmachineShoot : ShotSounds
             if(Input.GetMouseButtonDown(1))
             {
                 GameObject weapon = Instantiate(CurWeapon, FirePoint.position, FirePoint.rotation);
+                PlaySound(soundsArray[1]);
                 weapon.GetComponent<Rigidbody2D>().AddForce(FirePoint.up* throwSpeed, ForceMode2D.Impulse);
                 weapon.GetComponent<PickUpSubmachine>().ammo = WeaponManagment.instance.ammo;
                 weapon.GetComponent<PickUpSubmachine>().id = WeaponManagment.instance.id;
@@ -42,8 +43,10 @@ public class PlaerSubmachineShoot : ShotSounds
                 WeaponManagment.instance.id = 0;   // fixed
                 WeaponManagment.instance.ammo = 0;    // fixed
                 WeaponManagment.instance.maxAmmo = 0; 
+                
                 Instantiate(BasicPlayer, transform.position, transform.rotation);
                 Destroy(gameObject);
+                AudioSource.PlayClipAtPoint(soundsArray[1], transform.position);
             }
             if(Input.GetMouseButton(0) &&  WeaponManagment.instance.ammo > 0)
             {
