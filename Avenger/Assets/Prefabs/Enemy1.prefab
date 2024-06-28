@@ -283,7 +283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targets: []
   delay: 0
-  startAngle: 0
+  startAngle: 180
 --- !u!114 &8144018272463277855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -296,7 +296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecbdca858c578cf418e77664de9de1c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FOVradius: 4
+  FOVradius: 10
   targetlayer:
     serializedVersion: 2
     m_Bits: 8

@@ -54780,6 +54780,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7554032956682234597, guid: bfba56f7b2387ae40b36960468933d33, type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8144018272463277855, guid: bfba56f7b2387ae40b36960468933d33, type: 3}
       propertyPath: FOVradius
       value: 6
