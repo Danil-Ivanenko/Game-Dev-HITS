@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyManager : MonoBehaviour
 {
     // Start is called before the first frame update
+    // Start is called before the first frame update
     public static EnemyManager instance;
     public int aliveEnemies;
+    [SerializeField] string map;
     void Awake() 
     {
         instance = this;
@@ -21,7 +24,7 @@ public class EnemyManager : MonoBehaviour
     {
         if( aliveEnemies ==0)
         {
-            Debug.Log("They are all dead");
+            SceneManager.LoadScene(map);
         }
     }
 }

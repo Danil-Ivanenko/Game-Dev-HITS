@@ -720,6 +720,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87ad2ac450a66d44bb2a2d460e48c8fb, type: 3}
+--- !u!1001 &174314087
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6785783781071546909, guid: 50f5396006e659d419b3414a3395d14b, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e7db9bff61418724087904c93c964f1b, type: 3}
+    - target: {fileID: 8847267771656873802, guid: 50f5396006e659d419b3414a3395d14b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.1089597
+      objectReference: {fileID: 0}
+    - target: {fileID: 8847267771656873802, guid: 50f5396006e659d419b3414a3395d14b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.43319198
+      objectReference: {fileID: 0}
+    - target: {fileID: 8847267771656873802, guid: 50f5396006e659d419b3414a3395d14b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.970732
+      objectReference: {fileID: 0}
+    - target: {fileID: 8847267771656873802, guid: 50f5396006e659d419b3414a3395d14b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8847267771656873802, guid: 50f5396006e659d419b3414a3395d14b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8847267771656873802, guid: 50f5396006e659d419b3414a3395d14b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8847267771656873802, guid: 50f5396006e659d419b3414a3395d14b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8847267771656873802, guid: 50f5396006e659d419b3414a3395d14b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8847267771656873802, guid: 50f5396006e659d419b3414a3395d14b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8847267771656873802, guid: 50f5396006e659d419b3414a3395d14b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8852776022541747235, guid: 50f5396006e659d419b3414a3395d14b, type: 3}
+      propertyPath: m_Name
+      value: MusicManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 50f5396006e659d419b3414a3395d14b, type: 3}
 --- !u!1001 &188732882
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -65250,7 +65311,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3521330752317569601, guid: 3dcb55fc9755aa44195c3b47ef9a186d, type: 3}
       propertyPath: data.dataString
-      value: UEsDBBQAAAgIAAA4Iewb+uVEeQIAADIFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VMFy2jAQ/RVG58LYYEjorTWE9JCECenk4otsrbEGWfJIcoBk+PeuZBu7dOoL4u3u0763a38RLk0FmVV6ozl7UgzI9xFxZ/Jt1Acf4UT3Su74J3Q575zZwiVRn/NKLVeIh67MqBKs5tkPuRcuOUCwljxXulyzPcTKWINwToUBDGllXbVE6GtETvgzXrqSM56md+70iadlMLrgMQNpQfep80m0xGfR5o+nk3mAz/R+0daNo0l0F0wXy/U4uPMUtcwELStgTk/PFM46kmXk8yRKbVOcrEwJwU3bJ7HnyvsQ08rUqBITGKeo2zcXTuYIFMD3hXUqhuUveW7AtrZoel5xjQY2vOSnalwtqTk0rX1QUbubFk1TDefTP+Fx6MO5VuVjd20YuCtswbPDKz1n1NiB60N4NejcG3Sk4kBTAe8FyGe10aqWDINW1660NjBd9X+vyuICskOPN63egHXVO94NuRux03Dx4k+x4GXqQpOoAXZCecP9ZoDG0fzChv3emJYCUdfFbwNvdD9csDbwwLWxGGpVStdeqmrtUsnae+bU1DZWWoIeMlQgqbDnLfLY2xHexP5f9UDdu9Te3sa6V+SmxMN9fhDchLbqeJ2WKdTxCUzxUlvBJfRWu8AzGhUrKZsNG0rqyna1zmk2KNvXnP29W4TR9D5l03yWzmdpvmDjZcRm0SIM0jCMIAwo8cvHJeqkYts02tqDY5M9ucRF6z4xo42mld92pulxwz9LZfpMLnO1yzSAfGkYro2DxkvwvWRrxtGgHVjLpR84+UqIUNkBWHIlSrzS9clqmvQsCan4h7IOSUjsvykJcfB1mbcaPjgc3eUd2YVc/gBQSwMEFAAACAgAADgh7Be3kGltAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTXUVBKL0osyCgGihiCOKWZKSB2tFJKYpJFUopRmnGSqXFSmlmKrqVJirGJmaFBkqGhSaqhQaJSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAADgh7Bv65UR5AgAAMgUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAADgh7Be3kGltAAAAeAAAAAkAJAAAAAAAAAAAAAAAxgIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAAB+AwAAAAA=
+      value: UEsDBBQAAAgIAAAwIewb+uVEeQIAADIFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VMFy2jAQ/RVG58LYYEjorTWE9JCECenk4otsrbEGWfJIcoBk+PeuZBu7dOoL4u3u0763a38RLk0FmVV6ozl7UgzI9xFxZ/Jt1Acf4UT3Su74J3Q575zZwiVRn/NKLVeIh67MqBKs5tkPuRcuOUCwljxXulyzPcTKWINwToUBDGllXbVE6GtETvgzXrqSM56md+70iadlMLrgMQNpQfep80m0xGfR5o+nk3mAz/R+0daNo0l0F0wXy/U4uPMUtcwELStgTk/PFM46kmXk8yRKbVOcrEwJwU3bJ7HnyvsQ08rUqBITGKeo2zcXTuYIFMD3hXUqhuUveW7AtrZoel5xjQY2vOSnalwtqTk0rX1QUbubFk1TDefTP+Fx6MO5VuVjd20YuCtswbPDKz1n1NiB60N4NejcG3Sk4kBTAe8FyGe10aqWDINW1660NjBd9X+vyuICskOPN63egHXVO94NuRux03Dx4k+x4GXqQpOoAXZCecP9ZoDG0fzChv3emJYCUdfFbwNvdD9csDbwwLWxGGpVStdeqmrtUsnae+bU1DZWWoIeMlQgqbDnLfLY2xHexP5f9UDdu9Te3sa6V+SmxMN9fhDchLbqeJ2WKdTxCUzxUlvBJfRWu8AzGhUrKZsNG0rqyna1zmk2KNvXnP29W4TR9D5l03yWzmdpvmDjZcRm0SIM0jCMIAwo8cvHJeqkYts02tqDY5M9ucRF6z4xo42mld92pulxwz9LZfpMLnO1yzSAfGkYro2DxkvwvWRrxtGgHVjLpR84+UqIUNkBWHIlSrzS9clqmvQsCan4h7IOSUjsvykJcfB1mbcaPjgc3eUd2YVc/gBQSwMEFAAACAgAADAh7Be3kGltAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTXUVBKL0osyCgGihiCOKWZKSB2tFJKYpJFUopRmnGSqXFSmlmKrqVJirGJmaFBkqGhSaqhQaJSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAADAh7Bv65UR5AgAAMgUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAADAh7Be3kGltAAAAeAAAAAkAJAAAAAAAAAAAAAAAxgIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAAB+AwAAAAA=
       objectReference: {fileID: 0}
     - target: {fileID: 6917253689889091054, guid: 3dcb55fc9755aa44195c3b47ef9a186d, type: 3}
       propertyPath: m_Name
@@ -83984,3 +84045,4 @@ SceneRoots:
   - {fileID: 268537132}
   - {fileID: 250044697}
   - {fileID: 1227303969}
+  - {fileID: 174314087}
