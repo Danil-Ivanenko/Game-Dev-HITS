@@ -1,23 +1,30 @@
+Unity Editor version:    2022.3.31f1 (4ede2d13e8b4)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.5 (Build 22G74)
+Darwin version:          22.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
 Using pre-set license
-Built from '2022.3/staging' branch; Version is '2022.3.31f1 (4ede2d13e8b4) revision 5168685'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'ru' Physical Memory: 32501 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.31f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2022.3.31f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/slava/OneDrive/Рабочий стол/hits/Game-Dev-HITS/Avenger
+/Users/vaceslav/Documents/GitHub/Game-Dev-HITS/Avenger
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53544
-Successfully changed project path to: C:/Users/slava/OneDrive/Рабочий стол/hits/Game-Dev-HITS/Avenger
-C:/Users/slava/OneDrive/Рабочий стол/hits/Game-Dev-HITS/Avenger
+61682
+Successfully changed project path to: /Users/vaceslav/Documents/GitHub/Game-Dev-HITS/Avenger
+/Users/vaceslav/Documents/GitHub/Game-Dev-HITS/Avenger
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,67 +56,66 @@ C:/Users/slava/OneDrive/Рабочий стол/hits/Game-Dev-HITS/Avenger
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [30004] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 2635332995 [EditorId] 2635332995 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ONEJ7H4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8447484032] Host "[IP] 192.168.1.43 [Port] 0 [Flags] 2 [Guid] 966194446 [EditorId] 966194446 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Vaceslav.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [30004] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 2635332995 [EditorId] 2635332995 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ONEJ7H4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8447484032] Host "[IP] 192.168.1.43 [Port] 0 [Flags] 2 [Guid] 966194446 [EditorId] 966194446 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Vaceslav.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 7.88 ms, found 4 plugins.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.31f1 (4ede2d13e8b4)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/slava/OneDrive/Рабочий стол/hits/Game-Dev-HITS/Avenger/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.31f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/vaceslav/Documents/GitHub/Game-Dev-HITS/Avenger/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4070 (ID=0x2786)
-    Vendor:   NVIDIA
-    VRAM:     12026 MB
-    Driver:   31.0.15.3161
+ preferred device: Apple M2 Pro (high power)
+Metal devices available: 1
+0: Apple M2 Pro (high power)
+Using device Apple M2 Pro (high power)
+Initializing Metal device caps: Apple M2 Pro
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.31f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.31f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.31f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004452 seconds.
-- Loaded All Assemblies, in  0.210 seconds
-Native extension for WindowsStandalone target not found
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.31f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.31f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000872 seconds.
+- Loaded All Assemblies, in  0.180 seconds
+Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.171 seconds
-Domain Reload Profiling: 380ms
-	BeginReloadAssembly (67ms)
+- Finished resetting the current domain, in  0.142 seconds
+Domain Reload Profiling: 322ms
+	BeginReloadAssembly (39ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (20ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (81ms)
-		LoadAssemblies (66ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (87ms)
+		LoadAssemblies (38ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (80ms)
-			TypeCache.Refresh (79ms)
-				TypeCache.ScanAssembly (71ms)
+		AnalyzeDomain (86ms)
+			TypeCache.Refresh (85ms)
+				TypeCache.ScanAssembly (76ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (171ms)
+	FinalizeReload (142ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (135ms)
+		SetupLoadedEditorAssemblies (108ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
+			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (96ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (77ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,86 +123,400 @@ Domain Reload Profiling: 380ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.431 seconds
-Refreshing native plugins compatible for Editor in 2.83 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
+- Loaded All Assemblies, in  0.329 seconds
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.452 seconds
-Domain Reload Profiling: 882ms
-	BeginReloadAssembly (106ms)
+- Finished resetting the current domain, in  0.432 seconds
+Domain Reload Profiling: 761ms
+	BeginReloadAssembly (68ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (23ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (21ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (262ms)
-		LoadAssemblies (207ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (212ms)
+		LoadAssemblies (134ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (113ms)
+		AnalyzeDomain (108ms)
 			TypeCache.Refresh (93ms)
-				TypeCache.ScanAssembly (83ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
+				TypeCache.ScanAssembly (81ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (453ms)
+	FinalizeReload (432ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (337ms)
+		SetupLoadedEditorAssemblies (340ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
+			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (248ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (32ms)
+			ProcessInitializeOnLoadAttributes (284ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.11 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.31f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4222 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 66 unused Assets / (62.3 KB). Loaded Objects now: 4684.
-Memory consumption went from 150.7 MB to 150.6 MB.
-Total: 3.199200 ms (FindLiveObjects: 0.242300 ms CreateObjectMapping: 0.086900 ms MarkObjects: 2.670300 ms  DeleteObjects: 0.199200 ms)
+Unloading 66 unused Assets / (56.7 KB). Loaded Objects now: 4684.
+Memory consumption went from 159.5 MB to 159.5 MB.
+Total: 2.993459 ms (FindLiveObjects: 0.136750 ms CreateObjectMapping: 0.074250 ms MarkObjects: 2.687958 ms  DeleteObjects: 0.094167 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 871367.407430 seconds.
-  path: Assets/Scenes/map3.unity
-  artifactKey: Guid(d9e61b6cfd5f04d1393aabb437c4cb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/map3.unity using Guid(d9e61b6cfd5f04d1393aabb437c4cb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '805a435c82a5bfb0d7ee33d82be76971') in 0.002018 seconds
+  Time since last request: 284229.479069 seconds.
+  path: Assets/Scenes/map1.unity
+  artifactKey: Guid(2667e4c8e35b74223854769a39792db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/map1.unity using Guid(2667e4c8e35b74223854769a39792db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '9b9bd4424496d789fc91584c87874a28') in 0.001089 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 15.342721 seconds.
-  path: Assets/Scenes/map6.unity
-  artifactKey: Guid(50e8a161b95564301a5ea4141ce43313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/map6.unity using Guid(50e8a161b95564301a5ea4141ce43313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a733daeb740ee0ce007ce90b7dd4230d') in 0.000360 seconds
+  Time since last request: 275.248706 seconds.
+  path: Assets/kenney_tiny-town/block11_11.asset
+  artifactKey: Guid(cf6bacd7849d347048404d7f69b37c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/block11_11.asset using Guid(cf6bacd7849d347048404d7f69b37c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '5b4acf1d876dae4e6733836b642bab60') in 0.039030 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/kenney_tiny-town/dISING_0 1.asset
+  artifactKey: Guid(73a5204c498594f69946c160e22b9daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/dISING_0 1.asset using Guid(73a5204c498594f69946c160e22b9daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '516aaabb8abddd3f94fbe1bf70bee4f8') in 0.003277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/kenney_tiny-town/DAMN2.prefab
+  artifactKey: Guid(6aea73fb709364ffc905508fbd21af14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/DAMN2.prefab using Guid(6aea73fb709364ffc905508fbd21af14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '3adefe3776be44e9e936efe55e700046') in 0.017293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/kenney_tiny-town/DAMN2_3.asset
+  artifactKey: Guid(ed427e43d8c034860b1580d5a8c65428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/DAMN2_3.asset using Guid(ed427e43d8c034860b1580d5a8c65428) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '2716a6b386ac42daa688f197a603769e') in 0.002141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/kenney_tiny-town/DAMN2_0.asset
+  artifactKey: Guid(a1493d20b9e794a5cbf08162e3bb539e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/DAMN2_0.asset using Guid(a1493d20b9e794a5cbf08162e3bb539e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '14c12c9f1190b89eb00a840d4ea82fc5') in 0.002419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/kenney_tiny-town/Couches_2.asset
+  artifactKey: Guid(5e7db262dbfac4c1d9c0e2b0810a430a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/Couches_2.asset using Guid(5e7db262dbfac4c1d9c0e2b0810a430a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'b408e7a4e9cc043c4c0e0185b1d5a161') in 0.002011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/kenney_tiny-town/DAMN2_4.asset
+  artifactKey: Guid(a85761744aca645c4a0d373b29766201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/DAMN2_4.asset using Guid(a85761744aca645c4a0d373b29766201) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '545c6bcf7106704d84ae688e7ad5195f') in 0.002038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/kenney_tiny-town/Couches_0.asset
+  artifactKey: Guid(faae6ec53759f4be99a68fca564a5921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/Couches_0.asset using Guid(faae6ec53759f4be99a68fca564a5921) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '9364c5caba5109153c2f086b9a77fdaf') in 0.001952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/kenney_tiny-town/Couches_1.asset
+  artifactKey: Guid(158cb008a07d14231b3ddb2051b05b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/Couches_1.asset using Guid(158cb008a07d14231b3ddb2051b05b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '34b26de5806af71e5935353d406cd5a6') in 0.002287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/kenney_tiny-town/DAMN2_5.asset
+  artifactKey: Guid(24c27a0e415ba46029fb9fecb06b06be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/DAMN2_5.asset using Guid(24c27a0e415ba46029fb9fecb06b06be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'fac365cdfcbd8529702e950ead610362') in 0.002348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/kenney_tiny-town/dISING_1.asset
+  artifactKey: Guid(e6c706db2ce4e49c39eadd162039a3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/dISING_1.asset using Guid(e6c706db2ce4e49c39eadd162039a3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '6cb4b8a9fe737bf3e08a25774a2e0607') in 0.003675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/kenney_tiny-town/Couches_7.asset
+  artifactKey: Guid(ee02321c648064214975b6ab2be0b5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/Couches_7.asset using Guid(ee02321c648064214975b6ab2be0b5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '8b738c97b3a040f9aca18ca0db8a720d') in 0.002571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/kenney_tiny-town/Couches_3.asset
+  artifactKey: Guid(8616d8229cc424eea9697ff973cd4b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/Couches_3.asset using Guid(8616d8229cc424eea9697ff973cd4b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'bf15c02a51ce9d05c68612891caf9fe4') in 0.002952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/kenney_tiny-town/Couches_5.asset
+  artifactKey: Guid(42e645f952fae46a4895a237eb2efed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/Couches_5.asset using Guid(42e645f952fae46a4895a237eb2efed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'da8a7c41b625d5fa1d934fe3780ef185') in 0.002378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/kenney_tiny-town/DAMN2.png
+  artifactKey: Guid(2f192cfd2539744889e317e2af308eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/DAMN2.png using Guid(2f192cfd2539744889e317e2af308eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '7531de485995774942b8a158b06fcc4e') in 0.015504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/kenney_tiny-town/DAMN2_2.asset
+  artifactKey: Guid(fa122341a29ee4704babeac6e56fd313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/DAMN2_2.asset using Guid(fa122341a29ee4704babeac6e56fd313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '7654ff98e8bf161e1997ec9dc66030e8') in 0.002600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/kenney_tiny-town/comp.png
+  artifactKey: Guid(b1207b54c7ba647f28eed98bf5d3bd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/comp.png using Guid(b1207b54c7ba647f28eed98bf5d3bd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '67b6039258a4b5d72b42814989625452') in 0.003854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.027554 seconds.
+  path: Assets/kenney_tiny-town/dISING_4.asset
+  artifactKey: Guid(0a1912069e13145b89eceb7d3132656b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/dISING_4.asset using Guid(0a1912069e13145b89eceb7d3132656b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '280f0da82caa4fcdb2fc8f1314bc105b') in 0.003624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/kenney_tiny-town/dISING_7.asset
+  artifactKey: Guid(07cf7058c0bbd4892a5793d998515cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/dISING_7.asset using Guid(07cf7058c0bbd4892a5793d998515cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '0c72b5c601114b0bba9eade60e0ed02d') in 0.003045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.110880 seconds.
+  path: Assets/kenney_tiny-town/dISING_10.asset
+  artifactKey: Guid(1c545fafdb6c241d9b9d1ecab42f6917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/dISING_10.asset using Guid(1c545fafdb6c241d9b9d1ecab42f6917) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'd58b5c75e3e2a4411b95bb6ef7869657') in 0.003489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.126645 seconds.
+  path: Assets/kenney_tiny-town/dISING_16.asset
+  artifactKey: Guid(9eaefcf186d014037badfdcb08f1b682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/dISING_16.asset using Guid(9eaefcf186d014037badfdcb08f1b682) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '9e6cc4cf6b6ed82f5e93341b2b9ac55c') in 0.003436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/kenney_tiny-town/dISING_19.asset
+  artifactKey: Guid(50b001ccb22c14821937d40c00856103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/dISING_19.asset using Guid(50b001ccb22c14821937d40c00856103) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '525302ba6b3844dd04f6ad03161ed850') in 0.002752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.553321 seconds.
+  path: Assets/kenney_tiny-town/dISING_22.asset
+  artifactKey: Guid(511e8028c0874484688393bfbf209eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/dISING_22.asset using Guid(511e8028c0874484688393bfbf209eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '22ccb7956542990bc19f762881857e8e') in 0.003191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 43.955922 seconds.
+  path: Assets/kenney_tiny-town/Block.prefab
+  artifactKey: Guid(332d7241c6e1b4a4fb1f66838475e280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/Block.prefab using Guid(332d7241c6e1b4a4fb1f66838475e280) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '0375ff429a68c2314f6093615c0eab7e') in 0.006230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/kenney_tiny-town/block2_2.asset
+  artifactKey: Guid(0538a15c3532a4c868bdad23f1d2a01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/block2_2.asset using Guid(0538a15c3532a4c868bdad23f1d2a01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'e82382b34a82aa7f49846c5382c0a17d') in 0.003407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/kenney_tiny-town/block2_6.asset
+  artifactKey: Guid(2cce841a55f8a4d5fab9b0844ef65dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/block2_6.asset using Guid(2cce841a55f8a4d5fab9b0844ef65dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '02befd20ea8499481e97a4d4a08e89a9') in 0.002230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/kenney_tiny-town/block2_1.asset
+  artifactKey: Guid(263731999088548c69c3c79da7ed9015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/block2_1.asset using Guid(263731999088548c69c3c79da7ed9015) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '0e70c77ff44528988c3d47e18b33a259') in 0.002129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/kenney_tiny-town/block2_5.asset
+  artifactKey: Guid(4507d798b773a434b8344b7629e45c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_tiny-town/block2_5.asset using Guid(4507d798b773a434b8344b7629e45c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '1fffc52333cfbc00ccf998515bf145f3') in 0.002005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17fb53000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.230 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.478 seconds
+Domain Reload Profiling: 707ms
+	BeginReloadAssembly (83ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (106ms)
+		LoadAssemblies (125ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (478ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (299ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (32ms)
+			ProcessInitializeOnLoadAttributes (245ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (36.2 KB). Loaded Objects now: 4739.
+Memory consumption went from 163.8 MB to 163.8 MB.
+Total: 2.872250 ms (FindLiveObjects: 0.134625 ms CreateObjectMapping: 0.064542 ms MarkObjects: 2.619333 ms  DeleteObjects: 0.053417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
