@@ -19,7 +19,11 @@ MonoBehaviour:
     width: 1512
     height: 844
   m_ShowMode: 4
+<<<<<<< Updated upstream
   m_Title: Tile Palette
+=======
+  m_Title: Hierarchy
+>>>>>>> Stashed changes
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +52,11 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 103
+=======
+  controlID: 98
+>>>>>>> Stashed changes
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -66,11 +74,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1068.5
     y: 0
+<<<<<<< Updated upstream
     width: 443.5
     height: 794
   m_MinSize: {x: 241, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 12}
+=======
+    width: 422.5
+    height: 797
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 14}
+>>>>>>> Stashed changes
   m_Panes:
   - {fileID: 14}
   - {fileID: 12}
@@ -95,8 +111,8 @@ MonoBehaviour:
     y: 0
     width: 197.5
     height: 516.5
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -224,7 +240,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
+<<<<<<< Updated upstream
   controlID: 47
+=======
+  controlID: 40
+>>>>>>> Stashed changes
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +269,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 48
+=======
+  controlID: 41
+>>>>>>> Stashed changes
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -541,9 +565,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< Updated upstream
       m_SelectedIDs: 24670000
       m_LastClickedID: 0
       m_ExpandedIDs: 9cf9ffff1cfbffff
+=======
+      m_SelectedIDs: 6ae00000
+      m_LastClickedID: 57450
+      m_ExpandedIDs: 9078feff8a7afeff0692feffc692feff1c93feff7293feffc893feff1894feffd894feff6097fefff8a3feffe8a5feffe2cc000044e000006ae00000
+>>>>>>> Stashed changes
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -938,7 +968,11 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: -30.651854, y: -48.199074, z: -1.2946714}
     speed: 2
+<<<<<<< Updated upstream
     m_Value: {x: -30.651854, y: -48.199074, z: -1.2946714}
+=======
+    m_Value: {x: 413.75, y: 237.25, z: 0}
+>>>>>>> Stashed changes
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -990,7 +1024,11 @@ MonoBehaviour:
   m_Size:
     m_Target: 131.775
     speed: 2
+<<<<<<< Updated upstream
     m_Value: 131.775
+=======
+    m_Value: 476.9451
+>>>>>>> Stashed changes
   m_Ortho:
     m_Target: 1
     speed: 2

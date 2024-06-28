@@ -9,6 +9,7 @@ public class PlayerHP : ShotSounds
     SpriteRenderer Rend;
     private bool RunSound = false;
     Rigidbody2D Rb;
+    
     void Start()
     {
         anim = GetComponent<Animator>();
