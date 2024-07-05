@@ -17,6 +17,7 @@ public class PlayerMeleeAttack : ShotSounds
     float cooldown = 0.75f;
     float lastFireTime =- 0.75f;
     public bool attack;
+    PlayerHP HP;
     //EnemyAnimation AnimScript;
     void Start()
     {
@@ -24,12 +25,13 @@ public class PlayerMeleeAttack : ShotSounds
         col = GetComponentInChildren<BoxCollider2D>();
         anim = GetComponent<Animator>();
         col.enabled = false; 
+        HP = GetComponent<PlayerHP>();
         
     }
 
     void Update()
     {
-        if(Time.time > lastFireTime + cooldown)
+        if(Time.time > lastFireTime + cooldown && !HP.dead)
         {
             if(Input.GetMouseButtonDown(1))
             {

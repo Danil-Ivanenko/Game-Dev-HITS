@@ -15,10 +15,10 @@ public class PlayerPistolShoot : ShotSounds
     private bool isPlayed = false;
     Collider2D NoiseZone;
     [SerializeField] GameObject BasicPlayer;
-
+    PlayerHP HP;
     void Start()
     {
-
+        HP = GetComponent<PlayerHP>();
         NoiseZone = transform.GetChild(1).GetComponent<Collider2D>();
         FirePoint = transform.GetChild(0).transform;
         if(Time.time < 1f)
@@ -32,7 +32,7 @@ public class PlayerPistolShoot : ShotSounds
 
     void Update()
     {
-        if(Time.time > lastFireTime + cooldown)
+        if(Time.time > lastFireTime + cooldown && !HP.dead)
         {
             if(Input.GetMouseButtonDown(1))
             {
